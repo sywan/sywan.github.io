@@ -127,4 +127,4 @@ const pdfFiles=[['舊約縱覽-30_約伯記（上）.pdf',B('大衛鮑森舊約�
 const pdfResources=H('section',{className:'pdf-resources','aria-label':t(B('約伯記 PDF 講義','Job PDF handouts'))},H('div',{},H('h2',{},t(B('延伸研讀 · 舊約縱覽講義','Further study · Old Testament Survey handouts'))),H('p',{},t(B('依大衛鮑森《舊約縱覽》影片整理；可在新分頁閱讀或儲存。','Two handouts organized from David Pawson’s Old Testament Survey videos; open to read or save.')))),H('div',{className:'pdf-actions'},...pdfFiles.map(([file,label])=>H('a',{key:file,href:'./'+file,target:'_blank',rel:'noopener noreferrer',type:'application/pdf'},t(label)))));
 return H(React.Fragment,{},intro,top,H('main',{},pdfResources,body,H('div',{className:'footer'},t(B('約伯記互動導覽 · 繁體中文 / English · 內容依全書 42 章整理，研究上有爭議之處明示不同解讀。','Interactive Job study · Traditional Chinese / English · Covers all 42 chapters and flags disputed interpretations.')))),H('button',{className:'scrolltop',title:t(B('回到頂端','Back to top')),onClick:()=>window.scrollTo({top:0,behavior:'smooth'})},'↑'))}
 ReactDOM.createRoot(document.getElementById('root')).render(E(App));
-</script></body></html>
+</script><script src="/assets/site-freshness.js" defer></script></body></html>
