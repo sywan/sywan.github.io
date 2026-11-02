@@ -1,0 +1,40 @@
+name: Publish website and daily verse
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 00:27 and 01:27 in Taipei; the second run covers delayed schedules.
+    - cron: '27 16 * * *'
+    - cron: '27 17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Generate daily verse data
+        env:
+          YVP_APP_KEY: ${{ secrets.YVP_APP_KEY }}
+        run: python3 scripts/build_daily_verse.py
+      - name: Preserve static files exactly
+        run: touch .nojekyll
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
