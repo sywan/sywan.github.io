@@ -1,7 +1,7 @@
 (() => {
   const copy = {
-    zh: {title:'每日經文',intro:'每天從一節經文開始閱讀與默想。',label:'✦ 每日經文',loading:'正在取得今日經文…',unavailable:'今日經文暫時無法顯示，請到 YouVersion 閱讀。',pending:'今日經文更新中，請稍後再試。',link:'在 YouVersion 閱讀 ↗'},
-    en: {title:'Verse of the Day',intro:'Begin each day with a passage to read and reflect on.',label:'✦ Verse of the Day',loading:'Loading today’s verse…',unavailable:'Today’s verse is temporarily unavailable. Read it on YouVersion.',pending:'Today’s verse is updating. Please check back soon.',link:'Read on YouVersion ↗'}
+    zh: {title:'每日經文',intro:'每天從一節經文開始閱讀與默想。',label:'✦ 每日經文',loading:'正在取得今日經文…',unavailable:'今日經文暫時無法顯示，請到 YouVersion 閱讀。',translationUnavailable:'新標點和合本（神版）的經文請在 YouVersion 閱讀。',pending:'今日經文更新中，請稍後再試。',link:'在 YouVersion 閱讀 ↗'},
+    en: {title:'Verse of the Day',intro:'Begin each day with a passage to read and reflect on.',label:'✦ Verse of the Day',loading:'Loading today’s verse…',unavailable:'Today’s verse is temporarily unavailable. Read it on YouVersion.',translationUnavailable:'Read this passage in YouVersion.',pending:'Today’s verse is updating. Please check back soon.',link:'Read on YouVersion ↗'}
   };
   const ids = ['date','title','intro','label','text','reference','link','copyright'];
   const nodes = Object.fromEntries(ids.map(id => [id,document.getElementById(`daily-${id}`)]));
@@ -27,7 +27,12 @@
     if (!record) { nodes.text.textContent = failed ? c.unavailable : c.loading; return; }
     if (record.date !== date) { nodes.text.textContent = c.pending; return; }
     const verse = record.verses?.[lang];
-    if (!verse?.text) { nodes.text.textContent = c.unavailable; return; }
+    if (!verse?.text) {
+      nodes.text.textContent = verse?.available === false ? c.translationUnavailable : c.unavailable;
+      if (verse?.reference) nodes.reference.textContent = `${verse.reference} · ${verse.version_name}`;
+      if (verse?.url && /^https:\/\/www\.bible\.com\/bible\//.test(verse.url)) nodes.link.href = verse.url;
+      return;
+    }
     nodes.text.textContent = verse.text;
     nodes.reference.textContent = `${verse.reference} · ${verse.version_name}`;
     nodes.copyright.textContent = verse.copyright || '';
