@@ -51,11 +51,13 @@ def main():
     result = {"date": now.date().isoformat(), "day": day, "verses": {}}
     for lang, (version_id, fallback_name) in VERSIONS.items():
         try:
-            passage = get_json(f"/bibles/{version_id}/passages/{quote(passage_id, safe='.') }?format=text", key)
+            passage_path = quote(passage_id, safe=".")
+            passage = get_json(f"/bibles/{version_id}/passages/{passage_path}?format=text", key)
             version = get_json(f"/bibles/{version_id}", key)
         except HTTPError as error:
-            if error.code == 403:
-                print(f"{lang}: Bible version {version_id} is not licensed for this App Key")
+            detail = error.read().decode("utf-8", errors="replace")[:300].replace(key, "[redacted]")
+            print(f"{lang}: Bible version {version_id} returned HTTP {error.code}: {detail}")
+            if error.code in (403, 404):
                 result["verses"][lang] = {"available": False}
                 continue
             raise
