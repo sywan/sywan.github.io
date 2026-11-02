@@ -48,12 +48,13 @@ def main():
     day = now.timetuple().tm_yday
     daily = get_json(f"/verse-of-the-days/{day}", key)
     passage_id = daily["passage_id"]
+    print(f"YouVersion passage for day {day}: {passage_id}")
     result = {"date": now.date().isoformat(), "day": day, "verses": {}}
     for lang, (version_id, fallback_name) in VERSIONS.items():
         try:
+            version = get_json(f"/bibles/{version_id}", key)
             passage_path = quote(passage_id, safe=".")
             passage = get_json(f"/bibles/{version_id}/passages/{passage_path}?format=text", key)
-            version = get_json(f"/bibles/{version_id}", key)
         except HTTPError as error:
             detail = error.read().decode("utf-8", errors="replace")[:300].replace(key, "[redacted]")
             print(f"{lang}: Bible version {version_id} returned HTTP {error.code}: {detail}")
