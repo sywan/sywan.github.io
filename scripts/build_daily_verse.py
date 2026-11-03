@@ -84,7 +84,7 @@ def main():
             "available": True,
             "text": clean(passage["content"]),
             "reference": clean(passage["reference"]),
-            "version_name": clean(version.get("title") or version.get("name") or fallback_name),
+            "version_name": fallback_name if lang == "zh" else clean(version.get("title") or version.get("name") or fallback_name),
             "copyright": attribution,
             "url": f"https://www.bible.com/bible/{version_id}/{quote(passage_id, safe='.')}",
         }
