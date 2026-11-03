@@ -1,6 +1,6 @@
 (() => {
   const d = window.OT_DATA;
-  let lang = localStorage.getItem('bible-study-language') === 'en' ? 1 : 0;
+  let lang = 0; try { lang = (localStorage.getItem('site-language') || localStorage.getItem('bible-study-language')) === 'en' ? 1 : 0; } catch (e) {}
   let tab = 'overview';
   const $ = id => document.getElementById(id);
   const t = pair => Array.isArray(pair) ? pair[lang] : pair;
@@ -42,11 +42,11 @@
     $('title').textContent=t(d.title); $('subtitle').textContent=t(d.subtitle);
     $('home-link').textContent=U('home'); $('center-link').textContent=U('center');
     $('edition').textContent=U('edition'); $('footer').textContent=U('footer');
-    $('language').textContent=lang?'繁體中文':'English'; $('language').setAttribute('aria-label',lang?'切換語言':'Switch language'); $('refresh').textContent=U('refresh');
+    $('language').setAttribute('aria-checked',lang?'true':'false'); $('language').setAttribute('aria-label',lang?'Language: English; switch to Traditional Chinese':'語言：繁中，切換至英文'); $('refresh').textContent=U('refresh');
     $('tabs').innerHTML=ui.tabs.map(([id,zh,en])=>`<button type="button" class="tab" role="tab" data-tab="${id}" aria-controls="${id}-panel" aria-selected="${id===tab}">${esc(lang?en:zh)}</button>`).join('');
     $('tabs').querySelectorAll('button').forEach(button=>button.addEventListener('click',()=>{tab=button.dataset.tab;renderPanel();window.scrollTo({top:document.querySelector('main').offsetTop-65,behavior:'smooth'});}));
     renderPanel();
   }
-  $('language').addEventListener('click',()=>{lang=1-lang;localStorage.setItem('bible-study-language',lang?'en':'zh');render();});
+  $('language').addEventListener('click',()=>{lang=1-lang;try { localStorage.setItem('site-language',lang?'en':'zh'); } catch (e) {}render();});
   render();
 })();
