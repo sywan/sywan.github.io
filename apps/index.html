@@ -15,22 +15,22 @@
   <style>
     .portal-nav{margin-left:auto;display:flex;align-items:center;gap:12px}
     .portal-main{max-width:1320px}
-    .portal-hero{display:grid;grid-template-columns:minmax(0,1fr) 205px;align-items:center;gap:36px;padding:48px 0 42px}
+    .portal-hero{display:grid;grid-template-columns:minmax(0,1fr) 240px;align-items:center;gap:36px;padding:48px 0 42px}
     .portal-hero h1{font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(38px,4.8vw,64px);line-height:1.18;letter-spacing:-.03em;margin:12px 0}
     .portal-hero .section-lead{max-width:65ch;font-size:17px}
-    .portal-qr{background:#fffefb;border:1px solid var(--line);border-radius:18px;padding:16px;text-align:center;box-shadow:var(--shadow)}
-    .portal-qr img{display:block;width:100%;height:auto;max-width:168px;margin:auto}
+    .portal-qr{background:#fffefb;border:1px solid var(--line);border-radius:18px;padding:16px;text-align:center;box-shadow:var(--shadow);text-decoration:none}
+    .portal-qr img{display:block;width:100%;height:auto;max-width:208px;margin:auto}
     .portal-qr p{margin:8px 0 0;color:var(--muted);font-size:12px;line-height:1.45}
     .portal-link{margin:12px 0 0}.portal-link a{color:var(--blue);font-size:14px;font-weight:800;text-underline-offset:3px}
     .portal-main .section{padding-top:0}
-    @media(max-width:620px){.portal-nav{gap:7px}.portal-nav .lang{padding:5px 9px;font-size:12px}.portal-hero{grid-template-columns:1fr;gap:22px;padding:35px 0 28px}.portal-hero h1{font-size:40px}.portal-hero .section-lead{font-size:15px}.portal-qr{display:flex;align-items:center;gap:16px;text-align:left;max-width:330px;padding:11px}.portal-qr img{width:92px;flex:none}.portal-qr p{font-size:12px}}
+    @media(max-width:620px){.portal-nav{gap:7px}.portal-nav .lang{padding:5px 9px;font-size:12px}.portal-hero{grid-template-columns:1fr;gap:22px;padding:35px 0 28px}.portal-hero h1{font-size:40px}.portal-hero .section-lead{font-size:15px}.portal-qr{display:flex;align-items:center;gap:16px;text-align:left;max-width:360px;padding:11px}.portal-qr img{width:132px;flex:none}.portal-qr p{font-size:12px}}
   </style>
 </head>
 <body>
   <a class="skip" href="#main" data-i18n="skip">跳至主要內容</a>
   <header class="topbar"><div class="topin"><a class="wordmark" href="/apps/" aria-label="SYWAN Apps">SYWAN<span>.</span> Apps</a><div class="portal-nav"><button class="lang" type="button" data-refresh-page data-i18n="refresh">↻ 更新</button><button type="button" class="language-switch" id="language" role="switch" aria-checked="false" aria-label="語言：繁中，切換至英文"><span class="language-switch__option" data-lang-option="zh">繁中</span><span class="language-switch__option" data-lang-option="en">EN</span><span class="language-switch__thumb" aria-hidden="true"></span></button></div></div></header>
   <main class="portal-main" id="main">
-    <section class="section" id="apps"><div class="portal-hero"><div><div class="eyebrow">SYWAN / APP PORTAL</div><h1 data-i18n="appsTitle">實用 Apps</h1><p class="section-lead" data-i18n="appsLead">這裡收錄我自行設計與開發的 Apps，包括 Time Audit、Qute、QR Studio 與 RandoPal。</p></div><div class="portal-qr"><img src="/assets/apps-portal-qr.svg" width="410" height="410" alt="https://sywan.github.io/apps/ 的 QR Code"><p data-i18n="shareQR">掃描 QR Code，直接開啟 Apps 入口</p></div></div><div data-apps-catalog></div></section>
+    <section class="section" id="apps"><div class="portal-hero"><div><div class="eyebrow">SYWAN / APP PORTAL</div><h1 data-i18n="appsTitle">實用 Apps</h1><p class="section-lead" data-i18n="appsLead">這裡收錄我自行設計與開發的 Apps，包括 Time Audit、Qute、QR Studio 與 RandoPal。</p></div><a class="portal-qr" href="/apps/" aria-label="Apps portal"><img src="/assets/apps-portal-qr.png" width="720" height="720" alt="Apps portal QR Code"><p data-i18n="shareQR">掃描 QR Code，直接開啟 Apps 入口</p></a></div><div data-apps-catalog></div></section>
     <footer><span>© <span id="year">2026</span> SYWAN Apps</span><span data-i18n="footer">由萬書言設計與開發</span></footer>
   </main>
   <script src="/assets/apps-catalog.js"></script>

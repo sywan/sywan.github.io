@@ -25,5 +25,10 @@
 .language-switch[aria-checked="true"] .language-switch__thumb{transform:translateX(100%)}
 .language-switch[aria-checked="false"] [data-lang-option="zh"],.language-switch[aria-checked="true"] [data-lang-option="en"]{color:white}
 .language-switch:hover{border-color:#2b6b88}
-.portal-link{margin:-9px 0 22px}.portal-link a{color:var(--blue);font-size:14px;font-weight:800;text-underline-offset:3px}
+.portal-entry{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px;margin:-9px 0 22px;background:#f0f5f4;border:1px solid var(--line);border-radius:14px}
+.portal-link{margin:0}.portal-link a{color:var(--blue);font-size:15px;font-weight:800;text-underline-offset:3px}
+.portal-entry-caption{margin:3px 0 0;color:var(--muted);font-size:13px}
+.portal-entry-qr{display:block;flex:none;width:140px;padding:5px;background:#fff;border:1px solid var(--line);border-radius:9px}
+.portal-entry-qr img{display:block;width:100%;height:auto}
+@media(max-width:620px){.portal-entry{padding:12px}.portal-entry-qr{width:118px}.portal-entry-caption{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.language-switch__thumb,.language-switch__option{transition:none}}

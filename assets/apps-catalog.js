@@ -48,7 +48,8 @@
     "randoExtensionText": "使用桌面版 Chrome，從 Chrome 線上應用程式商店安裝。iPhone／iPad 無法安裝此擴充功能。",
     "randoExtensionButton": "前往 Chrome 線上應用程式商店 ↗",
     "randoDataNote": "名單儲存在各瀏覽器本機，不會自動跨裝置或版本同步。",
-    "portalLink": "開啟獨立 Apps 入口 ↗"
+    "portalLink": "開啟獨立 Apps 入口 ↗",
+    "portalScan": "也可掃描右側 QR Code，直接前往 Apps 入口。"
   },
   "en": {
     "appsTitle": "Useful Apps",
@@ -96,7 +97,8 @@
     "randoExtensionText": "Install from the Chrome Web Store in desktop Chrome. This extension cannot be installed on iPhone or iPad.",
     "randoExtensionButton": "View in Chrome Web Store ↗",
     "randoDataNote": "Rosters are saved locally in each browser and do not automatically sync across devices or versions.",
-    "portalLink": "Open the Apps portal ↗"
+    "portalLink": "Open the Apps portal ↗",
+    "portalScan": "Or scan the QR code on the right to open it directly."
   }
 };
   window.AppsCatalog={translations};
