@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="SYWAN 自行開發的實用 Apps：Time Audit、Qute、QR Studio 與 RandoPal。直接開啟網頁版，或查看安裝方式。">
+  <link rel="canonical" href="https://sywan.github.io/apps/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SYWAN Apps">
+  <meta property="og:description" content="Time Audit、Qute、QR Studio、RandoPal：我設計與開發的實用 Apps。">
+  <meta property="og:url" content="https://sywan.github.io/apps/">
+  <title>SYWAN Apps · 實用 Apps</title>
+  <link rel="stylesheet" href="/assets/site.css">
+  <style>
+    .portal-nav{margin-left:auto;display:flex;align-items:center;gap:12px}
+    .portal-main{max-width:1320px}
+    .portal-hero{display:grid;grid-template-columns:minmax(0,1fr) 205px;align-items:center;gap:36px;padding:48px 0 42px}
+    .portal-hero h1{font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(38px,4.8vw,64px);line-height:1.18;letter-spacing:-.03em;margin:12px 0}
+    .portal-hero .section-lead{max-width:65ch;font-size:17px}
+    .portal-qr{background:#fffefb;border:1px solid var(--line);border-radius:18px;padding:16px;text-align:center;box-shadow:var(--shadow)}
+    .portal-qr img{display:block;width:100%;height:auto;max-width:168px;margin:auto}
+    .portal-qr p{margin:8px 0 0;color:var(--muted);font-size:12px;line-height:1.45}
+    .portal-link{margin:12px 0 0}.portal-link a{color:var(--blue);font-size:14px;font-weight:800;text-underline-offset:3px}
+    .portal-main .section{padding-top:0}
+    @media(max-width:620px){.portal-nav{gap:7px}.portal-nav .lang{padding:5px 9px;font-size:12px}.portal-hero{grid-template-columns:1fr;gap:22px;padding:35px 0 28px}.portal-hero h1{font-size:40px}.portal-hero .section-lead{font-size:15px}.portal-qr{display:flex;align-items:center;gap:16px;text-align:left;max-width:330px;padding:11px}.portal-qr img{width:92px;flex:none}.portal-qr p{font-size:12px}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">跳至主要內容</a>
+  <header class="topbar"><div class="topin"><a class="wordmark" href="/apps/" aria-label="SYWAN Apps">SYWAN<span>.</span> Apps</a><div class="portal-nav"><button class="lang" type="button" data-refresh-page data-i18n="refresh">↻ 更新</button><button type="button" class="language-switch" id="language" role="switch" aria-checked="false" aria-label="語言：繁中，切換至英文"><span class="language-switch__option" data-lang-option="zh">繁中</span><span class="language-switch__option" data-lang-option="en">EN</span><span class="language-switch__thumb" aria-hidden="true"></span></button></div></div></header>
+  <main class="portal-main" id="main">
+    <section class="section" id="apps"><div class="portal-hero"><div><div class="eyebrow">SYWAN / APP PORTAL</div><h1 data-i18n="appsTitle">實用 Apps</h1><p class="section-lead" data-i18n="appsLead">這裡收錄我自行設計與開發的 Apps，包括 Time Audit、Qute、QR Studio 與 RandoPal。</p></div><div class="portal-qr"><img src="/assets/apps-portal-qr.svg" width="410" height="410" alt="https://sywan.github.io/apps/ 的 QR Code"><p data-i18n="shareQR">掃描 QR Code，直接開啟 Apps 入口</p></div></div><div data-apps-catalog></div></section>
+    <footer><span>© <span id="year">2026</span> SYWAN Apps</span><span data-i18n="footer">由萬書言設計與開發</span></footer>
+  </main>
+  <script src="/assets/apps-catalog.js"></script>
+  <script>
+    const labels={zh:{skip:'跳至主要內容',refresh:'↻ 更新',shareQR:'掃描 QR Code，直接開啟 Apps 入口',footer:'由萬書言設計與開發'},en:{skip:'Skip to main content',refresh:'↻ Refresh',shareQR:'Scan to open the Apps portal directly',footer:'Designed and developed by Shu-Yen Wan'}};
+    const button=document.getElementById('language');
+    function setLanguage(lang){const dict={...window.AppsCatalog.translations[lang],...labels[lang]};document.documentElement.lang=lang==='zh'?'zh-Hant':'en';document.querySelectorAll('[data-i18n]').forEach(el=>{if(dict[el.dataset.i18n])el.textContent=dict[el.dataset.i18n]});button.setAttribute('aria-checked',lang==='en'?'true':'false');button.setAttribute('aria-label',lang==='zh'?'語言：繁中，切換至英文':'Language: English; switch to Traditional Chinese');document.title=lang==='zh'?'SYWAN Apps · 實用 Apps':'SYWAN Apps · Useful Apps';try{localStorage.setItem('site-language',lang)}catch(e){}}
+    let saved;try{saved=localStorage.getItem('site-language')}catch(e){}setLanguage(saved==='en'?'en':'zh');button.addEventListener('click',()=>setLanguage(document.documentElement.lang==='en'?'zh':'en'));document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+  <script src="/assets/site-freshness.js" defer></script>
+</body>
+</html>
