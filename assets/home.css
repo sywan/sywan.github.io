@@ -48,8 +48,8 @@
 
 /* Fluid width: add tracks as the browser grows, keeping cards readable. */
 .topin,main{max-width:none;width:100%}
-#experience .entry-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
-#recognition .entry-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,350px),1fr))}
+#experience .entry-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,390px),1fr))}
+#recognition .entry-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,430px),1fr))}
 #research .entry-list,#publications .entry-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
 #experience .more-items>.entry-list{column-width:330px;column-count:auto}
 #research .more-items>.entry-list,#publications .more-items>.entry-list{column-width:420px;column-count:auto}
@@ -61,3 +61,9 @@
 #teaching .teaching-panel>.course-list{grid-column:2;grid-row:1/span 2;margin:0}
 #teaching .teaching-panel>p{grid-column:1/-1;margin-top:4px}
 @media(max-width:760px){#teaching .teaching-panel{grid-template-columns:1fr;gap:8px}#teaching .teaching-panel>.tag,#teaching .teaching-panel>h3,#teaching .teaching-panel>.course-list,#teaching .teaching-panel>p{grid-column:1;grid-row:auto}}
+
+/* Expanded CV lists are balanced as one continuous set of entries. */
+.more-items:not([open]) .when-open,.more-items[open] .when-closed{display:none}
+.grouped-content:has(>.more-items[open])>.preview-list{display:none}
+.grouped-content>.more-items[open]{margin-top:0}
+.grouped-content>.more-items[open]>summary{margin-bottom:6px}
