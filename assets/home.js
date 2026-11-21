@@ -9,6 +9,9 @@
   let data=null,lang='zh';
   try{lang=localStorage.getItem('site-language')==='en'?'en':'zh'}catch(e){}
   function local(obj,key){return obj?.[`${key}${lang==='zh'?'Zh':'En'}`]||obj?.[`${key}Zh`]||''}
+  function period(value){return lang==='en'?String(value||'').replaceAll('迄今','present'):value||''}
+  function role(value){return lang==='en'?({'主持人':'PI','共同主持人':'Co-PI','參與研究':'Researcher'}[value]||value):value}
+  function publicationType(value){return lang==='zh'?({'Journal':'期刊','Preprint':'預印本'}[value]||value):value}
   function card(meta,text,extra=''){return `<article class="entry-card"><div class="entry-meta">${meta}</div><p>${h(text)}</p>${extra}</article>`}
   function grouped(items,visible,moreLabel,renderItem){const first=items.slice(0,visible).map(renderItem).join('');const rest=items.slice(visible);return `<div class="entry-list">${first}</div>${rest.length?`<details class="more-items"><summary>${h(labels[lang][moreLabel])} (${rest.length})</summary><div class="entry-list">${rest.map(renderItem).join('')}</div></details>`:''}`}
   function renderData(){if(!data)return;
@@ -16,13 +19,13 @@
     $('#profile-name').innerHTML=lang==='zh'?`${h(p.nameZh)} <small>${h(p.nameEn)}</small>`:`${h(p.nameEn)} <small>${h(p.nameZh)}</small>`;
     $('#profile-title').textContent=local(p,'title');$('#profile-intro').textContent=local(p,'intro');
     $('#profile-education').textContent=local(p,'education');$('#profile-expertise').textContent=local(p,'expertise');$('#profile-lab').textContent=local(p,'lab');
-    $('#profile-email').textContent=p.email;$('#profile-email').href=`mailto:${encodeURIComponent(p.email)}`;$('#profile-phone').textContent=p.phone;
+    $('#profile-email').textContent=p.email;$('#profile-email').href=`mailto:${p.email}`;$('#profile-phone').textContent=lang==='en'?p.phone.replace('轉','ext.'):p.phone;
     $('#department-link').href=p.departmentUrl;
-    $('#experience-list').innerHTML=grouped(data.experience,8,'moreExperience',x=>card(`<span>${h(x.period)}</span>`,x.text));
+    $('#experience-list').innerHTML=grouped(data.experience,8,'moreExperience',x=>card(`<span>${h(period(x.period))}</span>`,x.text));
     $('#courses-list').innerHTML=data.courses.map(x=>`<span>${h(x[lang]||x.zh||'')}</span>`).join('');
     $('#awards-list').innerHTML=data.awards.map(x=>card(`<span>${h(x.year)}</span>`,x.text)).join('');
-    $('#projects-list').innerHTML=grouped(data.projects,6,'moreProjects',x=>card(`<span>${h(x.year)}</span><span class="tag">${h(x.role)}</span>${x.period?`<span>${h(x.period)}</span>`:''}`,x.title,`${x.sponsor||x.amount?`<p class="entry-more">${h([x.sponsor,x.amount].filter(Boolean).join(' · '))}</p>`:''}`));
-    $('#publications-list').innerHTML=grouped(data.publications,6,'morePublications',x=>card(`<span>${h(x.year)}</span><span class="tag">${h(x.type)}</span>`,x.text,x.doi?`<p class="entry-more"><a href="https://doi.org/${encodeURIComponent(x.doi)}" target="_blank" rel="noopener noreferrer">DOI ↗</a></p>`:''));
+    $('#projects-list').innerHTML=grouped(data.projects,6,'moreProjects',x=>card(`<span>${h(x.year)}</span><span class="tag">${h(role(x.role))}</span>${x.period?`<span>${h(x.period)}</span>`:''}`,x.title,`${x.sponsor||x.amount?`<p class="entry-more">${h([x.sponsor,x.amount].filter(Boolean).join(' · '))}</p>`:''}`));
+    $('#publications-list').innerHTML=grouped(data.publications,6,'morePublications',x=>card(`<span>${h(x.year)}</span><span class="tag">${h(publicationType(x.type))}</span>`,x.text,x.doi?`<p class="entry-more"><a href="https://doi.org/${x.doi.split('/').map(encodeURIComponent).join('/')}" target="_blank" rel="noopener noreferrer">DOI ↗</a></p>`:''));
     $('#playground-title').textContent=local(data.research,'playgroundTitle');$('#playground-text').textContent=local(data.research,'playgroundText');
   }
   function setLanguage(next){lang=next;document.documentElement.lang=lang==='zh'?'zh-Hant':'en';const dict={...labels[lang],...window.AppsCatalog.translations[lang]};document.querySelectorAll('[data-i18n]').forEach(el=>{if(Object.hasOwn(dict,el.dataset.i18n))el.textContent=dict[el.dataset.i18n]});const button=$('#language');button.setAttribute('aria-checked',lang==='en'?'true':'false');button.setAttribute('aria-label',lang==='zh'?'語言：繁中，切換至英文':'Language: English; switch to Traditional Chinese');document.title=lang==='zh'?'萬書言 · 個人學術網站':'Shu-Yen Wan · Academic Profile';try{localStorage.setItem('site-language',lang)}catch(e){}renderData()}
