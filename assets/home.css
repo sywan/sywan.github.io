@@ -32,3 +32,32 @@
 @media(max-width:760px){.profile-columns{grid-template-columns:1fr;gap:0}.profile-columns .section-top{min-height:0}#experience .entry-list,#recognition .entry-list,#research .entry-list,#publications .entry-list{grid-template-columns:1fr}.profile-hero{padding-block:42px 38px}}
 
 .site-footer{align-items:center}.footer-identity{display:grid;gap:4px}.home-share{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--blue);font-weight:750}.home-share img{width:138px;height:138px;object-fit:contain;background:white;border:1px solid var(--line);border-radius:11px;padding:5px}.home-share span{max-width:13ch;line-height:1.4}@media(max-width:620px){.home-share img{width:112px;height:112px}.home-share{gap:10px;font-size:12px}}
+
+/* Keep expandable groups out of the card grid. Independent columns prevent tall
+   entries from stretching unrelated cards or neighboring sections. */
+.profile-columns{display:block}
+#experience .section-top,#teaching .section-top{min-height:0}
+#experience .entry-list{grid-template-columns:repeat(3,minmax(0,1fr))}
+#teaching .teaching-panel{max-width:960px}
+#research .entry-list,#publications .entry-list,#recognition .entry-list,#experience .entry-list{align-items:start}
+#research .entry-card,#publications .entry-card,#recognition .entry-card,#experience .entry-card{align-self:start}
+#experience .more-items>.entry-list,#research .more-items>.entry-list,#publications .more-items>.entry-list{display:block;columns:3;column-gap:14px}
+.more-items>.entry-list>.entry-card{break-inside:avoid;page-break-inside:avoid;margin-bottom:14px}
+@media(max-width:1120px){#experience .entry-list{grid-template-columns:repeat(2,minmax(0,1fr))}#experience .more-items>.entry-list,#research .more-items>.entry-list,#publications .more-items>.entry-list{columns:2}}
+@media(max-width:760px){#experience .entry-list{grid-template-columns:1fr}#experience .more-items>.entry-list,#research .more-items>.entry-list,#publications .more-items>.entry-list{columns:1}#teaching .teaching-panel{max-width:none}}
+
+/* Fluid width: add tracks as the browser grows, keeping cards readable. */
+.topin,main{max-width:none;width:100%}
+#experience .entry-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+#recognition .entry-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,350px),1fr))}
+#research .entry-list,#publications .entry-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+#experience .more-items>.entry-list{column-width:330px;column-count:auto}
+#research .more-items>.entry-list,#publications .more-items>.entry-list{column-width:420px;column-count:auto}
+@media(max-width:760px){#experience .entry-list,#recognition .entry-list,#research .entry-list,#publications .entry-list{grid-template-columns:1fr}#experience .more-items>.entry-list,#research .more-items>.entry-list,#publications .more-items>.entry-list{column-count:1;column-width:auto}}
+
+#teaching .teaching-panel{max-width:none;display:grid;grid-template-columns:minmax(190px,.25fr) minmax(0,1fr);column-gap:24px;row-gap:4px;align-items:center}
+#teaching .teaching-panel>.tag{grid-column:1;justify-self:start}
+#teaching .teaching-panel>h3{grid-column:1;margin:4px 0}
+#teaching .teaching-panel>.course-list{grid-column:2;grid-row:1/span 2;margin:0}
+#teaching .teaching-panel>p{grid-column:1/-1;margin-top:4px}
+@media(max-width:760px){#teaching .teaching-panel{grid-template-columns:1fr;gap:8px}#teaching .teaching-panel>.tag,#teaching .teaching-panel>h3,#teaching .teaching-panel>.course-list,#teaching .teaching-panel>p{grid-column:1;grid-row:auto}}
