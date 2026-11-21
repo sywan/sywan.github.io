@@ -56,7 +56,7 @@
     "appsTitle": "Useful Apps",
     "appsLead": "Explore practical apps I designed and developed.",
     "installTitle": "Open from your home screen like an app",
-    "installIntro": "The web versions of all four tools open directly and can be added to a phone home screen or computer desktop for quick access from an icon.",
+    "installIntro": "These web tools open directly and can be added to a phone home screen or computer desktop for quick access from an icon.",
     "installSummary": "See steps for iPhone, iPad, Android, Mac, and Windows",
     "installIOSHead": "iPhone / iPad · Safari",
     "installIOSText": "Open the tool → Share → Add to Home Screen. If offered, turn on Open as Web App, then tap Add.",
