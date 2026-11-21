@@ -13,12 +13,12 @@
 
 /* Academic dashboard layout */
 .topin,main{max-width:1500px;margin-inline:auto}
-.profile-hero{gap:clamp(24px,3vw,50px);padding-block:56px 48px}
+.profile-hero{gap:clamp(24px,3vw,50px);padding-block:48px 43px}
 .profile-main h1{font-size:clamp(40px,4.5vw,64px)}
 .profile-columns{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(330px,.65fr);gap:clamp(24px,3vw,48px);align-items:start}
 .profile-columns .section-top{display:block;min-height:94px}
 .profile-columns .section-lead{font-size:14px}
-.section{padding-top:56px}
+.section{padding-top:45px}
 .section-top{margin-bottom:20px}
 .section h2{font-size:clamp(29px,2.6vw,37px)}
 #experience .entry-list,#recognition .entry-list,#research .entry-list,#publications .entry-list{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -30,3 +30,5 @@
 #apps .section-lead,#bible .section-lead{max-width:70ch}
 @media(max-width:1120px){.profile-columns{grid-template-columns:1fr 1fr}.profile-columns #experience .entry-list{grid-template-columns:1fr}#recognition .entry-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.profile-columns{grid-template-columns:1fr;gap:0}.profile-columns .section-top{min-height:0}#experience .entry-list,#recognition .entry-list,#research .entry-list,#publications .entry-list{grid-template-columns:1fr}.profile-hero{padding-block:42px 38px}}
+
+.site-footer{align-items:center}.footer-identity{display:grid;gap:4px}.home-share{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--blue);font-weight:750}.home-share img{width:138px;height:138px;object-fit:contain;background:white;border:1px solid var(--line);border-radius:11px;padding:5px}.home-share span{max-width:13ch;line-height:1.4}@media(max-width:620px){.home-share img{width:112px;height:112px}.home-share{gap:10px;font-size:12px}}
