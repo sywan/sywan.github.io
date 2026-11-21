@@ -10,3 +10,23 @@
 .editor-entry{align-self:center;color:var(--blue);font-size:13px;font-weight:800;text-decoration:underline;text-underline-offset:4px;white-space:nowrap}.editor-entry:hover{color:var(--ink)}
 @media(max-width:1180px){.topin{flex-wrap:wrap}.nav{order:3;width:100%;margin:0;overflow:auto;padding-bottom:3px}.topin>.lang{margin-left:auto}}
 @media(max-width:720px){.profile-hero{grid-template-columns:1fr;padding:45px 0 42px}.profile-facts{padding:22px}.profile-main h1{font-size:45px}.profile-main h1 small{font-size:25px}.section-top{display:block}.section{padding-top:52px}.entry-card{padding:17px}.nav{gap:9px 15px;flex-wrap:wrap;overflow:visible}.nav a{font-size:13px}}
+
+/* Academic dashboard layout */
+.topin,main{max-width:1500px;margin-inline:auto}
+.profile-hero{gap:clamp(24px,3vw,50px);padding-block:56px 48px}
+.profile-main h1{font-size:clamp(40px,4.5vw,64px)}
+.profile-columns{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(330px,.65fr);gap:clamp(24px,3vw,48px);align-items:start}
+.profile-columns .section-top{display:block;min-height:94px}
+.profile-columns .section-lead{font-size:14px}
+.section{padding-top:56px}
+.section-top{margin-bottom:20px}
+.section h2{font-size:clamp(29px,2.6vw,37px)}
+#experience .entry-list,#recognition .entry-list,#research .entry-list,#publications .entry-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+#recognition .entry-list{grid-template-columns:repeat(3,minmax(0,1fr))}
+.entry-card{padding:16px 19px;border-radius:13px;align-self:stretch}
+.entry-card p{font-size:14px;line-height:1.55}
+.entry-card .entry-more{font-size:12px}
+#teaching .teaching-panel{padding:24px}
+#apps .section-lead,#bible .section-lead{max-width:70ch}
+@media(max-width:1120px){.profile-columns{grid-template-columns:1fr 1fr}.profile-columns #experience .entry-list{grid-template-columns:1fr}#recognition .entry-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.profile-columns{grid-template-columns:1fr;gap:0}.profile-columns .section-top{min-height:0}#experience .entry-list,#recognition .entry-list,#research .entry-list,#publications .entry-list{grid-template-columns:1fr}.profile-hero{padding-block:42px 38px}}

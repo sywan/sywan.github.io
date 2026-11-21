@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "name": "Time Audit",
+      "summaryZh": "記錄每天的時間，回看分配與選擇，讓生活更靠近重視的事。",
+      "summaryEn": "Track your time and see how your choices reflect what matters to you.",
+      "webUrl": "https://sywan.github.io/TimeAudit/",
+      "qrSrc": "/assets/time-audit-qr.png",
+      "extensionUrl": "",
+      "noteZh": "",
+      "noteEn": ""
+    },
+    {
+      "name": "Qute",
+      "summaryZh": "在自己的裝置上為照片轉換風格；照片留在瀏覽器中，不需上傳或註冊。",
+      "summaryEn": "Transform photo styles on your own device, without uploads or registration.",
+      "webUrl": "https://sywan.github.io/Qute/",
+      "qrSrc": "/assets/qute-qr.png",
+      "extensionUrl": "",
+      "noteZh": "",
+      "noteEn": ""
+    },
+    {
+      "name": "QR Studio",
+      "summaryZh": "在瀏覽器中製作可自訂顏色、樣式、中央圖像與文字的 QR Code。",
+      "summaryEn": "Create QR codes with custom colors, styles, center images, and text.",
+      "webUrl": "https://sywan.github.io/QRcodeGen/",
+      "qrSrc": "/assets/qr-studio-qr.png",
+      "extensionUrl": "https://chromewebstore.google.com/detail/qr-studio/gelmpodijjkgliekdidklkjgabjfpoao",
+      "noteZh": "",
+      "noteEn": ""
+    },
+    {
+      "name": "RandoPal",
+      "summaryZh": "匯入名單後，隨機抽選、排列順序或平均分組；支援繁中與英文。",
+      "summaryEn": "Draw names, randomize order, or form balanced groups from your roster.",
+      "webUrl": "https://sywan.github.io/RandoPal/",
+      "qrSrc": "/assets/randopal-qr.png",
+      "extensionUrl": "https://chromewebstore.google.com/detail/dbeefcopgljaolbjnpfeplblhmnobhdc",
+      "noteZh": "名單儲存在各瀏覽器本機，不會自動跨裝置或版本同步。",
+      "noteEn": "Rosters stay in each browser and do not automatically sync across devices."
+    }
+  ]
+}

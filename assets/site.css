@@ -32,3 +32,5 @@
 .portal-entry-qr img{display:block;width:100%;height:auto}
 @media(max-width:620px){.portal-entry{padding:12px}.portal-entry-qr{width:118px}.portal-entry-caption{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.language-switch__thumb,.language-switch__option{transition:none}}
+
+.catalog-card{display:grid;grid-template-columns:minmax(0,1fr) 120px;gap:17px;align-items:start;padding:24px}.catalog-card h3{margin:12px 0 8px}.catalog-card .qr-wrap{width:120px}.catalog-copy{min-width:0}.catalog-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}.catalog-actions .button{font-size:12px;padding:8px 12px}.catalog-note{font-size:12px!important;margin-top:11px!important}.catalog-card .app-install-hint{margin-top:9px}.catalog-card .guide-link-row{margin-top:9px}@media(max-width:620px){.catalog-card{grid-template-columns:1fr 104px;padding:17px;gap:12px}.catalog-card .qr-wrap{width:104px}.catalog-card h3{font-size:19px}}
