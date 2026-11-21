@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "nameZh": "萬書言",
+    "nameEn": "Shu-Yen Wan",
+    "titleZh": "長庚大學資訊管理學系教授、系主任／管理學院國際事務副院長",
+    "titleEn": "Professor and Chair, Department of Information Management · Associate Dean for International Affairs, College of Management, Chang Gung University",
+    "introZh": "分享大學教學、醫學影像與資訊管理研究、學術成果，以及自行開發的實用工具。",
+    "introEn": "Teaching, research in medical imaging and information management, scholarly work, and useful tools I have developed.",
+    "email": "sywan@mail.cgu.edu.tw",
+    "phone": "(03) 211-8800 轉 5819",
+    "educationZh": "美國賓州州立大學電腦科學暨工程博士",
+    "educationEn": "Ph.D. in Computer Science and Engineering, Pennsylvania State University",
+    "expertiseZh": "醫學影像、電腦視覺、生物資訊、影像處理",
+    "expertiseEn": "Medical imaging, computer vision, bioinformatics, image processing",
+    "labZh": "生醫影像資訊實驗室",
+    "labEn": "Biomedical Imaging Informatics Laboratory",
+    "departmentUrl": "https://www.cgu.edu.tw/im/Subject/Detail/42214?nodeId=12445"
+  },
+  "experience": [
+    {
+      "period": "2026-迄今",
+      "text": "長庚大學資訊管理學系系主任"
+    },
+    {
+      "period": "2022-迄今",
+      "text": "管理學院國際事務副院長"
+    },
+    {
+      "period": "2021-迄今",
+      "text": "Guest Editor for Symmetry (SCI Q1/Q2)"
+    },
+    {
+      "period": "2016-迄今",
+      "text": "長庚大學校訊編輯委員"
+    },
+    {
+      "period": "2016-迄今",
+      "text": "長庚紀念醫院合聘研究員"
+    },
+    {
+      "period": "2016-迄今",
+      "text": "明志科技大學合聘教授"
+    },
+    {
+      "period": "2016-2017",
+      "text": "台北世大運資通訊協力專家學者"
+    },
+    {
+      "period": "2015-迄今",
+      "text": "長庚大學管理學院 AACSB 共同召集人"
+    },
+    {
+      "period": "2015-2022",
+      "text": "長庚大學管理學院企業管理研究所(博士班)所長"
+    },
+    {
+      "period": "2015-2021",
+      "text": "長庚大學銀髮產業發展與研究中心主任"
+    },
+    {
+      "period": "2014-迄今",
+      "text": "長庚大學資訊管理學系/管理研究所(博士班)教授"
+    },
+    {
+      "period": "2014-迄今",
+      "text": "Editor for International Journal of Orthopaedics"
+    },
+    {
+      "period": "2013-2015",
+      "text": "長庚大學學務處就業服務暨僑外生輔導組組長"
+    },
+    {
+      "period": "2013-2015",
+      "text": "長庚大學校友業務會議兼校友通訊召集人"
+    },
+    {
+      "period": "2010-2015",
+      "text": "長庚大學人體生物資料庫資訊組組長"
+    },
+    {
+      "period": "2007-2014",
+      "text": "長庚大學資訊管理學系副教授"
+    },
+    {
+      "period": "2007-2011",
+      "text": "長庚大學資訊管理學系系主任 (所長)"
+    },
+    {
+      "period": "2003-2008",
+      "text": "長庚大學學務處就業服務暨僑外生輔導組組長"
+    },
+    {
+      "period": "2003-2007",
+      "text": "長庚大學資訊工程學系副教授"
+    },
+    {
+      "period": "2000-2003",
+      "text": "長庚大學資訊管理學系助理教授"
+    },
+    {
+      "period": "2000 (5月)-2000 (8月)",
+      "text": "美國賓州立大學博士後研究"
+    },
+    {
+      "period": "1998-2000 (5月)",
+      "text": "美國賓州立大學電機學系研究助理"
+    }
+  ],
+  "courses": [
+    {
+      "zh": "程式設計",
+      "en": "Programming"
+    },
+    {
+      "zh": "影像處理",
+      "en": "Image Processing"
+    },
+    {
+      "zh": "醫學影像",
+      "en": "Medical Imaging"
+    },
+    {
+      "zh": "電腦圖學",
+      "en": "Computer Graphics"
+    },
+    {
+      "zh": "系統分析與設計",
+      "en": "Systems Analysis and Design"
+    },
+    {
+      "zh": "專案管理",
+      "en": "Project Management"
+    },
+    {
+      "zh": "資管專業英文",
+      "en": "Professional English for Information Management"
+    },
+    {
+      "zh": "人工智慧分類專題",
+      "en": "Topics in Artificial Intelligence Classification"
+    }
+  ],
+  "awards": [
+    {
+      "year": "2022",
+      "text": "2022年國家新創精進獎(新創醫療技術：精進面向：核心技術、臨床/驗證)，林口長庚紀念醫院，李達人、黃啟哲、張伯宏、陳益瑋、傅嘉祥、吳佳臻、黃建嘉、吳佩雯、萬書言、蕭彥彰、李晉邦、傅士珆、蔡孟潔，｢空鼻症之全方位評估與客製化內視鏡微創鼻腔重建｣，並收錄於2023 年國家新創獎精進標竿技術年鑑."
+    },
+    {
+      "year": "2021",
+      "text": "2021 第十八屆國家新創獎 (18^{th} National Innovation Award)，臨床新創獎，林口長庚紀念醫院，李達人、黃啟哲、張柏泓、陳益瑋、傅嘉祥、吳佳臻、黃建嘉、吳佩雯、萬書言、蕭彥彰、李晉邦、傅士珆、蔡孟潔，｢空鼻症之全方位評估與客製化內視鏡微創鼻腔重建｣ (Comprehensive evaluation and tailored minimally-invasive endoscopic intranasal to treat empty nose syndrome)，Dec. 17^{th}, 2021."
+    },
+    {
+      "year": "2018",
+      "text": "2018 IEEE ICASI Best Paper Award; Shu-Yen Wan, Che-Yao Chang, Tomas Su, Lun-Jou Lo, and Chih-Yung Chen, “Landmark-less Registration of Craniomaxillofacial Images Acquired from 3D Photography and CBCT with Disturbance-Region Removal,” International Conference on Applied System Innovation, April 13-17, 2018, Chiba, ToKyo, Japan."
+    },
+    {
+      "year": "2017",
+      "text": "I595430, 萬書言、蔡佩穎、羅綸洲、張哲堯, 評估顏面整體對稱性的方法及評估系統, Effective Aug. 11^{th}, 2017 - Dec. 6th, 2036"
+    },
+    {
+      "year": "2015",
+      "text": "I509539, Kun-Ju Lin, Shu-Yen Wan, Che-Yao Chang, Chung-Mei Fan, and Hsin-Ming Yu, “Method and Apparatus for Scheduling,” Effective Nov. 21^{st}, 2015 - Jan. 29^{th}, 2033."
+    },
+    {
+      "year": "2015",
+      "text": "Project Management Professional (PMP)^{®} (國際專案管理師), 2015-present"
+    },
+    {
+      "year": "2000",
+      "text": "2000 MIST Best Paper Award; Shu-Yen Wan, Erik L. Ritman, and William E. Higgins, “Exploration of Extracted Geometrical Information from 3D Vascular Images,” Medical Informatics Symposium in Taiwan 2000, Taipei, Taiwan, Oct. 26-29, 2000."
+    }
+  ],
+  "projects": [
+    {
+      "year": 2026,
+      "title": "以生物標誌為導向之慢性鼻竇炎：氧化氮途徑、上皮屏障損傷及術後生物製劑反應在台灣原發性慢性鼻竇炎族群之轉譯研究（115-2314-B-182A-124-）",
+      "role": "共同主持人",
+      "period": "2026/08/01–2027/07/31",
+      "sponsor": "國科會",
+      "amount": "NT$1,303,000"
+    },
+    {
+      "year": 2025,
+      "title": "鼻腔及組織一氧化氮代謝物在台灣族群原發性慢性鼻竇炎之上皮屏障完整性中的角色探討（114-2314-B-182A-096-）",
+      "role": "共同主持人",
+      "period": "2025/08/01–2026/07/31",
+      "sponsor": "國科會",
+      "amount": "NT$1,320,000"
+    },
+    {
+      "year": 2024,
+      "title": "多尺度深度學習的影像切割與特徵標示演算法：以鼻腔影像為例（113-2221-E-182-022-）",
+      "role": "主持人",
+      "period": "2024/08/01–2026/01/31",
+      "sponsor": "國科會",
+      "amount": "NT$1,071,000"
+    },
+    {
+      "year": 2024,
+      "title": "組織及鼻腔一氧化氮在原發性慢性鼻竇炎中的角色及調控：在台灣人口的縱向研究（113-2314-B-182A-043-）",
+      "role": "共同主持人",
+      "period": "2024/08/01–2025/10/31",
+      "sponsor": "國科會",
+      "amount": "NT$1,260,000"
+    },
+    {
+      "year": 2023,
+      "title": "以 Snakemake 生醫資訊執行流程為基礎的視覺化平台（112-2221-E-182-027-）",
+      "role": "主持人",
+      "period": "2023/08/01–2025/01/31",
+      "sponsor": "國科會",
+      "amount": "NT$986,000"
+    },
+    {
+      "year": 2022,
+      "title": "對稱型深度學習演算法應用於鼻腔結構與空鼻症患者主訴關聯性之研究（111-2221-E-182-019-）",
+      "role": "主持人",
+      "period": "2022/08/01–2024/01/31",
+      "sponsor": "國科會",
+      "amount": "NT$936,000"
+    },
+    {
+      "year": 2022,
+      "title": "Correlation between Preoperative and Postoperative Nasal Cavity Symmetry for Empty Nose Syndrome (空鼻症鼻腔空間對稱性評估模型與手術前後相關性之研究 (2/2); 兩年期，第二年)，NARPD3J0122，PI: Shu-Yen Wan, Funds: NT$ 829,000; Sponsor: Ministry of Science and Technology (科技部-MOST), Time Span: 08/01/2020~01/31/2022.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2020,
+      "title": "Correlation between Preoperative and Postoperative Nasal Cavity Symmetry for Empty Nose Syndrome (空鼻症鼻腔空間對稱性評估模型與手術前後相關性之研究 (1/2); 兩年期，第一年)，NARPD3J0121，PI: Shu-Yen Wan, Funds: NT$ 886,000; Sponsor: Ministry of Science and Technology (科技部-MOST), Time Span: 08/01/2019~07/31/2020.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2019,
+      "title": "常春藤 ERP 系統建置與資料分析；SCRPD3I0061；PI: Shu-Yen Wan, Funds：NT$530,000；Sponsor：長春藤生命科學股份有限公司, Time Span：03/01/2019-08/31/2019.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2019,
+      "title": "Study on Perception of Facial Asymmetry (顏面不對稱性感知的量化研究(2/3)；三年期，第三年), CRRPD3G0013; PI: Shu-Yen Wan, Funds: NT$541,560; Sponsor: Chang Gung Memorial Hospital, Time Span: 01/01/2019~12/31/2019.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2019,
+      "title": "Deep Facial Landmark Factorization on 3D Craniofacial asymmetry and Development of a Scalable Platform (三維顱顏不對稱的深臉部界標分解研究與可擴展平台之建立), PI: Shu-Yen Wan, Funds: NT$832,000; Sponsor: Ministry of Science and Technology (科技部-MOST), Time Span: 08/01/2017~01/31/2019.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2018,
+      "title": "Study on Perception of Facial Asymmetry (顏面不對稱性感知的量化研究(2/3)；三年期，第二年), CRRPD3G0012; PI: Shu-Yen Wan, Funds: NT$541,560; Sponsor: Chang Gung Memorial Hospital, Time Span: 01/01/2018~12/31/2018.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2018,
+      "title": "Establlishment of a Value-Added Center for Stroke Clinical Big Data and Study on Intelligent Medical Healthcare Models (2/2) (腦中風臨床大數據加值中心之建置暨智慧醫療照護模式研究：第二年), MOST 106-2632-H-182-001; Subprogram PI: Shu-Yen Wan, Funds: NT$2,898,000; Sponsor: Ministry of Technology (科技部-MOST-子計畫), Time Span: 08/01/2017~07/31/2018.",
+      "role": "共同／子計畫主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2017,
+      "title": "Study on Perception of Facial Asymmetry (整合型三維電腦輔助正顎手術之臨床整合應用之子計畫六：顏面不對稱性感知的量化研究(1/3)；三年期，第一年), CRRPD3G0011; PI: Shu-Yen Wan, Funds: NT$512,755; Sponsor: Chang Gung Memorial Hospital, Time Span: 01/01/2017~12/31/2017.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2017,
+      "title": "Asymmetry of Three-Dimensional Craniofacial Images and Its Quantified Perception (三維顱顏影像不對稱性與其感知量化之研究), MOST 105-2221-E-182-013; PI: Shu-Yen Wan, Funds: NT$808,000; Sponsor: Ministry of Science and Technology (科技部-MOST), Time Span: 08/01/2016~10/31/2017.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2017,
+      "title": "Establlishment of a Value-Added Center for Stroke Clinical Big Data and Study on Intelligent Medical Healthcare Models (1/2) (腦中風臨床大數據加值中心之建置暨智慧醫療照護模式研究：第一年), MOST 105-2632-H-182-001; Subprogram PI: Shu-Yen Wan, Funds: NT$3,020,000; Sponsor: Ministry of Technology (科技部-MOST-子計畫), Time Span: 08/01/2016~07/31/2017.",
+      "role": "共同／子計畫主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2016,
+      "title": "Study of Relations between Facial Attractiveness and Syntheses of Craniofacial Images (3/3) (整合型三維影像之電腦輔助正顎手術矯正模擬及術後顏面分析之子計畫三：容貌吸引力與三維顱顏影像合成關聯性之研究(三)；三年期，第三年 ), CRRPD5C0253; PI: Shu-Yen Wan, Funds: NT$730,483; Sponsor: Chang Gung Memorial Hospital, Time Span: 01/01/2016~12/31/2016",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2015,
+      "title": "Study of Relations between Facial Attractiveness and Syntheses of Craniofacial Images (2/3) (整合型三維影像之電腦輔助正顎手術矯正模擬及術後顏面分析之子計畫三：容貌吸引力與三維顱顏影像合成關聯性之研究(三)；三年期，第二年 ), CRRPD5C0252; PI: Shu-Yen Wan, Funds: NT$671,560; Sponsor: Chang Gung Memorial Hospital, Time Span: 01/01/2015~12/31/2015",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2015,
+      "title": "Disturbance Region Removal Based Craniofacial Registration of Stereo Photography and CBCT Images (干擾特徵移除於顱顏立體攝影與電腦斷層掃描影像合成之研究), MOST 103-2221-E-182-037; PI: Shu-Yen Wan, Funds: NT$733,000; Sponsor: Ministry of Technology (科技部-MOST), Time Span: 08/01/2014~07/31/2015.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2014,
+      "title": "Study of Relations between Facial Attractiveness and Syntheses of Craniofacial Images (1/3) (整合型三維影像之電腦輔助正顎手術矯正模擬及術後顏面分析之子計畫三：容貌吸引力與三維顱顏影像合成關聯性之研究(三)；三年期，第一年 ), CRRPD5C0251; PI: Shu-Yen Wan, Funds: NT$662,755; Sponsor: Chang Gung Memorial Hospital, Time Span: 01/01/2014~12/31/2014",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2013,
+      "title": "Facial Attractiveness Ontology Using 3D Craniofacial Morphable Synthesis (三維顱顏型變合成應用於探討容貌吸引力之研究), NSC-101-2221-E-182-013; PI: Shu-Yen Wan, Funds: NT$733,000, Sponsor: National Science Council, Taiwan, ROC. (國科會-NSC), Time Span: 08/01/2012~7/31/2013.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2011,
+      "title": "On Three-Dimensional Reconstruction and Identification of Craniofacial Images: Development of a Software Platform (顱顏影像的三維模型重建與比對之研究與平台開發), NSC- 97-2221-E-182-037-MY3；PI: Shu-Yen Wan, Sponsor: National Science Council, Taiwan, R.O.C. (國科會- NSC), Time Span: 08/01/2008~7/31/2011.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2008,
+      "title": "Collaboration of Symmetric Region Grow and Active Contouring: Theoretical Studies and Applications to Biomedical Imaging (結合對稱群域成長與動態輪廓模塑技術的理論研究與生醫影像的應用), NSC-96-2221-E-182-042；PI: Shu-Yen Wan, Sponsor: National Science Council, Taiwan, R.O.C. (國科會-NSC), Time Span: 08/01/2007~10/31/2008.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2007,
+      "title": "Systems biology in bladder cancer: theories, clinical bioinformatics and applications – Component Project 7: Visualization and imaging approaches toward understanding of the organization and dynamics of gene regulatory networks in bladder cancer 1/3 (針對膀胱癌的系統生物學研究:包括理論、生物資訊及臨床應用 – 子計劃七：膀胱癌基因條控網路的拓蹼與動態建構之研究:植基於視覺話與影像處理技術 3/3), CMRPD33086-III, PI: Shu-Yen Wan, Sponsor: Chang Gung Memorial Hospital, Time Span: 9/1/2006~12/31/2007.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2007,
+      "title": "Symmetric Fuzzy-Connectedness Region Growing Segmentation (SymFC-RG): Theory and Application 2/2 (對稱型模糊連結群域成長影像分割技術(SymFC-RG)之理論與應用研究 2/2), NSC-95-2221-E-182-047；PI: Shu-Yen Wan, Sponsor: National Science Council, Taiwan, R.O.C. (國科會-NSC), Time Span: 08/01/2006~10/31/2007.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2006,
+      "title": "Systems biology in bladder cancer: theories, clinical bioinformatics and applications – Component Project 7: Visualization and imaging approaches toward understanding of the organization and dynamics of gene regulatory networks in bladder cancer 2/3 (針對膀胱癌的系統生物學研究:包括理論、生物資訊及臨床應用 – 子計劃七：膀胱癌基因條控網路的拓蹼與動態建構之研究:植基於視覺話與影像處理技術 2/3), CMRPD33086-II, PI: Shu-Yen Wan, Sponsor: Chang Gung Memorial Hospital, Time Span: 9/1/2005~8/31/2006.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2006,
+      "title": "Symmetric Fuzzy-Connectedness Region Growing Segmentation (SymFC-RG): Theory and Application 1/2 (對稱型模糊連結群域成長影像分割技術(SymFC-RG)之理論與應用研究 1/2), NSC-94-2213-E-182-018；PI: Shu-Yen Wan, Sponsor: National Science Council, Taiwan, R.O.C. (國科會-NSC), Time Span: 08/01/2005~7/31/2006.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2005,
+      "title": "Bioinformatics in Bladder Cancer: from Gene Expression to Bio- Clinical Decision Support System and Collaborative Platform – Component Project 5: Visualizing and predicting genetic predisposition of bladder cancer with the use of artificial intelligence and imaging algorithms 3/3 (生物資訊在膀胱癌的應用: 從基因表現到臨床決策支援系統及網路上的合作平台 – 子計劃五：以人工智慧與影像演算法視覺化並預測基因與膀胱癌的關係 3/3), CMRPD1010, PI: Shu-Yen Wan, Co-PI: Kwang-Hung Hsu, Sponsor: Chang Gung Memorial Hospital, Time Span: 12/01/2004~5/31/2005.",
+      "role": "共同／子計畫主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2005,
+      "title": "Gene-Cancer Relationships Prediction: Construction of Biomedical Platform Towards Microarray Data/Image Analysis, Mining, and Integration of Existing Visualization Tools 2/2 (基因與癌症關聯的預測：以膀胱癌為例建構微陣列影像分析、計量資料探勘、整合既有視覺化工具的生醫研究平台 2/2), NSC-93-2213-E-182-003；PI: Shu-Yen Wan, Sponsor: National Science Council, Taiwan, R.O.C. (國科會-NSC), Time Span: 08/01/2004~07/31/2005",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2005,
+      "title": "Systems biology in bladder cancer: theories, clinical bioinformatics and applications – Component Project 7: Visualization and imaging approaches toward understanding of the organization and dynamics of gene regulatory networks in bladder cancer 1/3 (針對膀胱癌的系統生物學研究:包括理論、生物資訊及臨床應用 – 子計劃七：膀胱癌基因條控網路的拓蹼與動態建構之研究:植基於視覺話與影像處理技術 1/3), CMRPD33086-I, PI: Shu-Yen Wan, Sponsor: Chang Gung Memorial Hospital, Time Span: 9/1/2004~8/31/2005.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2004,
+      "title": "Bioinformatics in Bladder Cancer: from Gene Expression to Bio- Clinical Decision Support System and Collaborative Platform – Component Project 5: Visualizing and predicting genetic predisposition of bladder cancer with the use of artificial intelligence and imaging algorithms 2/3 (生物資訊在膀胱癌的應用: 從基因表現到臨床決策支援系統及網路上的合作平台 – 子計劃五：以人工智慧與影像演算法視覺化並預測基因與膀胱癌的關係 2/3), CMRPD1010, PI: Shu-Yen Wan, Co-PI: Kwang-Hung Hsu, Sponsor: Chang Gung Memorial Hospital, Time Span: 12/01/2003~11/30/2004.",
+      "role": "共同／子計畫主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2004,
+      "title": "Gene-Cancer Relationships Prediction: Construction of Biomedical Platform Towards Microarray Data/Image Analysis, Mining, and Integration of Existing Visualization Tools 1/2 (基因與癌症關聯的預測：以膀胱癌為例建構微陣列影像分析、計量資料探勘、整合既有視覺化工具的生醫研究平台 1/2), NSC-92-2213-E-182-012；PI: Shu-Yen Wan, Sponsor: National Science Council, Taiwan, R.O.C. (國科會-NSC), Time Span: 08/01/2003~11/30/2004.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2004,
+      "title": "Multidisciplinary Micro CT 3-D Imaging Facility, NIH R01-RR11800, PI: Erik L. Ritman, MD., Ph.D., Mayo Clinic, Sponsor: National Institutes of Health (NIH), U.S.A., Time Span: 09/30/1999 - 09/29/2004.",
+      "role": "參與研究",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2003,
+      "title": "Bioinformatics in Bladder Cancer: from Gene Expression to Bio- Clinical Decision Support System and Collaborative Platform – Component Project 5: Visualizing and predicting genetic predisposition of bladder cancer with the use of artificial intelligence and imaging algorithms 1/3 (生物資訊在膀胱癌的應用: 從基因表現到臨床決策支援系統及網路上的合作平台 – 子計劃五：以人工智慧與影像演算法視覺化並預測基因與膀胱癌的關係 1/3), CMRPD1010, PI: Shu-Yen Wan, Co-PI: Kwang-Hung Hsu, Sponsor: Chang Gung Memorial Hospital, Time Span: 12/01/2002~11/30/2003.",
+      "role": "共同／子計畫主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2003,
+      "title": "Endoluminal Analysis and Surgical Path Planning for 3D Tubular Structures Using Unidirectional Region Grow (以對稱群域成長技術為基礎的三維管狀結構分析與手術路徑規劃之研究), NSC-91-2213-E-182-020；PI: Shu-Yen Wan, Sponsor: National Science Council, Taiwan, R.O.C. (國科會-NSC), Time Span: 08/01/2002~07/31/2003.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2003,
+      "title": "提升大學國際競爭力A計畫 – 長庚大學生物科技管理：分項計畫四，PI: Shu-Yen Wan, Sponsor: Ministry of Education, Taiwan, R.O.C., Time Span: 09/2002~08/2003.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2003,
+      "title": "虛擬教學個案之研究–以醫學影像網際網路教學為例 (2/4), 教育部提昇大學基礎教育計劃 H048; PI: Shu-Yen Wan, Sponsor: Ministry of Education, Taiwan, R.O.C., Time Span: 09/2002~08/2003.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2002,
+      "title": "虛擬教學個案之研究–以醫學影像網際網路教學為例 (1/4), 教育部提昇大學基礎教育計劃 H048; PI: Shu-Yen Wan, Sponsor: Ministry of Education, Taiwan, R.O.C., Time Span: 09/2001~08/2002.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2002,
+      "title": "On Invariant Region-Growing Segmentation: Symmetric Region Growing – Its Property Analysis and Applications on Medical Imaging (不變異型群域成長之影像切割技術的研究：對稱性群域成長理論的特性分析及其在醫學影像的應用), NSC-90-2314-B-182-093, PI: Shu-Yen Wan, Sponsor: National Science Council, Taiwan, R.O.C. (國科會-NSC) and Chang Gung Memorial Hospital (長庚紀念醫院), Time Span: 08/01/2001~07/31/2002.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2002,
+      "title": "Synergisitic CT-Bronchoscopy for Lung-Cancer Assessment, NIH R01-CA74325, PI: William E. Higgins, Ph.D., Sponsor: National Institutes of Health (NIH), U.S.A., Time Span: 04/01/1997 - 03/31/2002.",
+      "role": "參與研究",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2001,
+      "title": "Extraction and Analysis of Vascular Structures in 3D CT Images – Design and Evaluation of An Integrated Medical Imaging System (三維醫學影像中血管網路資訊之萃取和分析 - 醫學影像處理系統之整合設計與評估), NSC-89-2314-B-182-147-M08, PI: Shu-Yen Wan, Sponsors: National Science Council, Taiwan, R.O.C. (國科會-NSC) and Chang Gung Memorial Hospital (長庚紀念醫院), Time Span: 12/01/2000~10/31/2001.",
+      "role": "主持人",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    },
+    {
+      "year": 2000,
+      "title": "Multidisciplinary Micro CT 3-D Imaging Resource, NIH R01-RR11800, PI: Erik L. Ritman, MD., Ph.D., Mayo Clinic , Sponsor: National Institutes of Health (NIH), U.S.A., Time Span: 04/01/1997 - 03/31/2000.",
+      "role": "參與研究",
+      "period": "",
+      "sponsor": "",
+      "amount": ""
+    }
+  ],
+  "publications": [
+    {
+      "year": 2026,
+      "text": "Yu-Chen Chen and Shu-Yen Wan. (2026, Sep.). WaveGate-nnU-Net: Frequency-Domain Inclusion Preserves Segmentation Accuracy under Reduced Training Data in Nasal and Paranasal Sinus CT. MedRxiv. NSTC-114-2813-C-182-053-E. DOI: 10.64898/2026.09.10.26362809. Preprint.",
+      "type": "Preprint",
+      "doi": "10.64898/2026.09.10.26362809"
+    },
+    {
+      "year": 2026,
+      "text": "Shu-Yen Wan, Wen-Yu Chen, and Guan-Yu Lin (2026, Jul.). FreqFuseNet: Resolving Feature-Scale Mismatch in Dual-Frequency Fusion for Thin-Wall Head-and-Neck OAR Segmentation. MedRxiv. NSTC-114-2813-C-182-053-E. DOI: 10.64898/2026.07.09.26357642. Preprint.",
+      "type": "Preprint",
+      "doi": "10.64898/2026.07.09.26357642"
+    },
+    {
+      "year": 2026,
+      "text": "Shu-Yen Wan and Wen-Yu Chen (2026, Apr.). Adaptive Frequency-Spatial Dual-Stream Network (AFS-DSN) for Nasal and Paranasal Sinus CT Segmentation. IEEE ACCESS, 14, pp. 68720-68737. (SCI). DOI: 10.1109/ACCESS.2026.3689347.",
+      "type": "Journal",
+      "doi": "10.1109/ACCESS.2026.3689347"
+    },
+    {
+      "year": 2025,
+      "text": "Cheng-Yu Li, Ta-Jen Lee, Yi-Wei Chen, Po-Hung Chang, Ya-Cheng Tang, Yu-Chieh Chen, Shu-Yen Wan, and Chia-Hsiang Fu (2025, Sep). Association Between Autonomic Dysfunction and Empty Nose Syndrome. International Forum of Allergy & Rhinology, 15(9), 993-996. (SCI). NSTC 113-2221-E-182-022, MOST 111-2221-E-182-019. DOI: 10.1002/alr.23618. Epub 2025 May 30. PMID: 40444418.",
+      "type": "Journal",
+      "doi": "10.1002/alr.23618"
+    },
+    {
+      "year": 2021,
+      "text": "Shu-Yen Wan, Pei-Ying Tsai, Lun-Jou Lo (2021, Sep). Quantifying Perceived Facial Asymmetry to Enhance Physician-Patient Communications. Applied Sciences, 11(18), 13 pages. (SCI). MOST 105-2221-E-182-013. DOI: 10.3390/app11188398.",
+      "type": "Journal",
+      "doi": "10.3390/app11188398"
+    },
+    {
+      "year": 2021,
+      "text": "Shu-Yen Wan, Lun-Jou Lo, Che-Yao Chang (2021, Mar). Disturbance-Region Removal on Landmarkless Registration of Craniofacial Images Acquired by CBCT and 3D Photography. International Journal of Emerging Technology and Advanced Engineering, 11(3), 7 pages. (Scopus). MOST 105-2221-E-182-013.",
+      "type": "Journal",
+      "doi": ""
+    },
+    {
+      "year": 2014,
+      "text": "Shih-Wei Lin, Kuo-Ching Ying, and Shu-Yen Wan (2014, Sep). Minimizing the Total Service Time of Discrete Dynamic Berth Allocation Problem by an Iterated Greedy Heuristic. Scientific World Journal, 2014(218925), 1-12. DOI: 10.1155/2014/218925. (SCI).",
+      "type": "Journal",
+      "doi": "10.1155/2014/218925"
+    },
+    {
+      "year": 2014,
+      "text": "Kuo-Ching Ying, Shih-Wei Lin, Shu-Yen Wan (2014, Mar). Bi-objective Reentrant Hybrid Flowshop Scheduling: An Iterated Pareto Greedy Algorithm. International Journal of Production Research, 52(19), 5735-5747. DOI: 10.1080/00207543.2014.910627. (SCI). MOST 102-2221-E-027-056.",
+      "type": "Journal",
+      "doi": "10.1080/00207543.2014.910627"
+    },
+    {
+      "year": 2014,
+      "text": "Wen-Chung Chiang, Hsiu-Hsia Lin, Chiung-Shing Huang, Lun-Jou Lo, Shu-Yen Wan (2014, Mar). The Cluster Assessment of Facial Attractiveness Using Fuzzy Neural Network Classifier Based on 3D Moiré Features. PATTERN RECOGNITION, 47(3); pp. 1249-1260. (SCI). 本人為通訊作者.",
+      "type": "Journal",
+      "doi": ""
+    },
+    {
+      "year": 2014,
+      "text": "Chung-Chih Yu, Shu-Yen Wan, Che-Yao Chang (2014, Feb). Commentary on “The labial aging process: a surface analysis based 3D evaluation”. AESTHETIC PLASTIC SURGERY, 38(1), 242-243. (SCI).",
+      "type": "Journal",
+      "doi": ""
+    },
+    {
+      "year": 2014,
+      "text": "Shu-Yen Wan, Che-Yao Chang, Chun-Ling Wang, Kun-Ju Lin (2014, Feb). Stateless Two-Stage Multiple Criteria Scheduling in Nuclear Medicine. Mathematical Problems in Engineering, 2014(642649), 1-6. (SCI).",
+      "type": "Journal",
+      "doi": ""
+    },
+    {
+      "year": 2013,
+      "text": "Hsiu-Hsia Lin, Wen-Chung Chiang, Lun-Jou Lo, Sam Sheng-Pin Hsu, Chien- Hsuan Wang,and Shu-Yen Wan (2013, Nov). Artifact-Resistant Superimposition of Digital Dental Models and Cone-Beam Computed Tomography Images. JOURNAL OF ORAL AND MAXILLOFACIAL SURGERY, 71(11), pp. 1933- 1947. (SCI). NSC 97-2221-E-182-037-MY3.",
+      "type": "Journal",
+      "doi": ""
+    },
+    {
+      "year": 2010,
+      "text": "Chia-Fone Lee, Gen-Jia Li, Shu-Yen Wan, Wen-Jeng Lee, Kai-yuan Tzen, Chiung-Hsiang Chen, Yu-Lin Song, Yuan-Fang Chou, Yuh-Shyang Chen, and Tien-Chen Liu, “Registration of micro-CT and histology images of the guinea pig cochlea to construct ear model using iterative closest point algorithm,” Annals of Biomedical Engineering, vol. 38, no. 5, pp. 1719-1727, 2010. (SCI) (NSC-96-2221-E-182-042; NSC- 97-2221-E-182-037-MY3)",
+      "type": "Journal",
+      "doi": ""
+    },
+    {
+      "year": 2003,
+      "text": "Shu-Yen Wan and William E. Higgins, “Symmetric Region Growing,” IEEE Transactions on Image Processing, vol. 12, no. 9, pp. 1007-1015, 2003. (SCI) (NSC-90-2314-B-182-093)",
+      "type": "Journal",
+      "doi": ""
+    },
+    {
+      "year": 2003,
+      "text": "Jiann-Der Lee, Shu-Yen Wan, and Rui-Feng Wu, “A Hybrid Compression Model for Clusters of Similar Medical Images,” Biomedical Engineering, Applications, Basis, and Communication, vol. 15, no. 1, pp. 38-45, Feb. 2003. (SCI) (EI)",
+      "type": "Journal",
+      "doi": ""
+    },
+    {
+      "year": 2002,
+      "text": "Cherng-Min Ma, Shu-Yen Wan, and Jiann-Der Lee, “3D Topology Preserving Reduction on the 4-Subfields,” IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 24, no. 12, pp. 1594-1605, 2002. (SCI) (EI)(NSC89-2213-E-182-013)",
+      "type": "Journal",
+      "doi": ""
+    },
+    {
+      "year": 2002,
+      "text": "Shu-Yen Wan, Erik L. Ritman, and William E. Higgins, “Multi-generational Analysis and Visualization of the Vascular Tree in 3-D Micro-CT Images,” Computers in Biology and Medicine, vol. 32, no. 2, pp. 55-71, 2002. DOI: 10.1016/S0010-4825(01)00034-8. (SCI) (NSC-89-2314-B-182-147-M08) (SCI).",
+      "type": "Journal",
+      "doi": "10.1016/S0010-4825(01"
+    },
+    {
+      "year": 2002,
+      "text": "Cherng-Min Ma, Shu-Yen Wan, and H.K. Chang. Extracting Medial Curves On 3D Images. Pattern Recognition Letters, vol. 23, no. 8, pp. 895-904, 2002. DOI: 10.1016/S0167-8655(01)00162-3. (SCI) (NSC89-2213-E-182-013)",
+      "type": "Journal",
+      "doi": "10.1016/S0167-8655(01"
+    },
+    {
+      "year": 2000,
+      "text": "Shu-Yen Wan, A. P. Kiraly, E. L. Ritman and W. E. Higgins (2000, Sep.), Extraction of the hepatic vasculature in rats using 3-D micro-CT images. IEEE Transactions on Medical Imaging, vol. 19, no. 9, pp. 964-971. DOI: 10.1109/42.887843. (SCI)",
+      "type": "Journal",
+      "doi": "10.1109/42.887843"
+    }
+  ],
+  "research": {
+    "playgroundTitleZh": "研究 Playground",
+    "playgroundTitleEn": "Research Playground",
+    "playgroundTextZh": "未來將整理研究平台、學生作品與獲獎成果，提供可以直接探索的入口。",
+    "playgroundTextEn": "A future home for research platforms, student projects, and award-winning work."
+  }
+}

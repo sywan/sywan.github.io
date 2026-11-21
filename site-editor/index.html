@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self' https://api.github.com; img-src 'self' data:; base-uri 'self'; form-action 'none'">
+  <title>SYWAN 網站編輯器</title><link rel="stylesheet" href="/assets/editor.css">
+</head>
+<body>
+  <header><div class="wrap header"><div><strong>SYWAN<span>.</span> Editor</strong><small>個人網站內容編輯器</small></div><a href="/" target="_blank" rel="noopener noreferrer">查看公開網站 ↗</a></div></header>
+  <main class="wrap">
+    <section class="intro"><span class="eyebrow">PRIVATE WORKSPACE</span><h1>編輯網站內容</h1><p>修改首頁資料、各卷書研讀內容或延伸閱讀，儲存後由 GitHub Pages 自動發布。每次儲存都會留下 GitHub 版本紀錄。</p></section>
+    <section class="card login"><h2>連接 GitHub</h2><p>請使用僅授權 <code>sywan/sywan.github.io</code>、具有 <strong>Contents: Read and write</strong> 權限的 fine-grained Personal Access Token。憑證只留在此分頁記憶體；關閉或重新載入後需再次輸入。</p><div class="login-row"><label for="token">GitHub Token</label><input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="貼上 Token"><button id="connect" type="button">連接</button><button id="disconnect" type="button" hidden>離開編輯模式</button></div><p class="help"><a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens" target="_blank" rel="noopener noreferrer">GitHub 建立 Token 說明 ↗</a></p></section>
+    <section class="card workspace" id="workspace" hidden><div class="controls"><label>內容範圍<select id="scope"><option value="home">個人首頁</option><option value="resources">聖經研讀｜新增筆記與資源</option><option value="study">聖經研讀｜卷書內容與 PDF</option></select></label><label id="book-wrap" hidden>卷書<select id="book"></select></label><label id="section-wrap">編輯區塊<select id="section"></select></label></div><div class="actions"><button id="reload" type="button" class="secondary">重新讀取 GitHub 版本</button><button id="save" type="button">儲存並發布</button><a id="preview" target="_blank" rel="noopener noreferrer">查看公開頁面 ↗</a></div><p id="status" role="status" aria-live="polite"></p><p class="help">「新增筆記與資源」適用於所有書卷，可寫中英文內容或加入連結；「卷書內容」可編輯使用通用版型的 65 個書卷頁面。</p><div id="fields"></div><div class="pdf-upload" id="pdf-upload" hidden><h2>上傳 PDF 到本卷書</h2><p>先選擇 PDF 並上傳，再按「儲存並發布」，就會建立對應的延伸閱讀連結。單檔上限 10 MB。</p><input id="pdf-file" type="file" accept="application/pdf,.pdf"><button id="upload-pdf" type="button" class="secondary">上傳 PDF</button></div></section>
+    <p class="footnote">此編輯器只有持有倉庫寫入權限的 GitHub Token 才能提交變更。提交後通常需要一小段時間才會出現在公開網站。</p>
+  </main>
+  <script src="/assets/editor.js" defer></script>
+</body>
+</html>

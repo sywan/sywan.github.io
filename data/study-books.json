@@ -1,0 +1,342 @@
+[
+  {
+    "slug": "old-testament-overview",
+    "nameZh": "舊約總覽",
+    "nameEn": "Old Testament Overview"
+  },
+  {
+    "slug": "genesis-study",
+    "nameZh": "創世記",
+    "nameEn": "Genesis"
+  },
+  {
+    "slug": "exodus-study",
+    "nameZh": "出埃及記",
+    "nameEn": "Exodus"
+  },
+  {
+    "slug": "leviticus-study",
+    "nameZh": "利未記",
+    "nameEn": "Leviticus"
+  },
+  {
+    "slug": "numbers-study",
+    "nameZh": "民數記",
+    "nameEn": "Numbers"
+  },
+  {
+    "slug": "deuteronomy-study",
+    "nameZh": "申命記",
+    "nameEn": "Deuteronomy"
+  },
+  {
+    "slug": "joshua-study",
+    "nameZh": "約書亞記",
+    "nameEn": "Joshua"
+  },
+  {
+    "slug": "judges-study",
+    "nameZh": "士師記",
+    "nameEn": "Judges"
+  },
+  {
+    "slug": "ruth-study",
+    "nameZh": "路得記",
+    "nameEn": "Ruth"
+  },
+  {
+    "slug": "1-samuel-study",
+    "nameZh": "撒母耳記上",
+    "nameEn": "1 Samuel"
+  },
+  {
+    "slug": "2-samuel-study",
+    "nameZh": "撒母耳記下",
+    "nameEn": "2 Samuel"
+  },
+  {
+    "slug": "1-kings-study",
+    "nameZh": "列王紀上",
+    "nameEn": "1 Kings"
+  },
+  {
+    "slug": "2-kings-study",
+    "nameZh": "列王紀下",
+    "nameEn": "2 Kings"
+  },
+  {
+    "slug": "1-chronicles-study",
+    "nameZh": "歷代志上",
+    "nameEn": "1 Chronicles"
+  },
+  {
+    "slug": "2-chronicles-study",
+    "nameZh": "歷代志下",
+    "nameEn": "2 Chronicles"
+  },
+  {
+    "slug": "ezra-study",
+    "nameZh": "以斯拉記",
+    "nameEn": "Ezra"
+  },
+  {
+    "slug": "nehemiah-study",
+    "nameZh": "尼希米記",
+    "nameEn": "Nehemiah"
+  },
+  {
+    "slug": "esther-study",
+    "nameZh": "以斯帖記",
+    "nameEn": "Esther"
+  },
+  {
+    "slug": "job-study",
+    "nameZh": "約伯記",
+    "nameEn": "Job"
+  },
+  {
+    "slug": "psalms-study",
+    "nameZh": "詩篇",
+    "nameEn": "Psalms"
+  },
+  {
+    "slug": "proverbs-study",
+    "nameZh": "箴言",
+    "nameEn": "Proverbs"
+  },
+  {
+    "slug": "ecclesiastes-study",
+    "nameZh": "傳道書",
+    "nameEn": "Ecclesiastes"
+  },
+  {
+    "slug": "song-of-songs-study",
+    "nameZh": "雅歌",
+    "nameEn": "Song of Songs"
+  },
+  {
+    "slug": "isaiah-study",
+    "nameZh": "以賽亞書",
+    "nameEn": "Isaiah"
+  },
+  {
+    "slug": "jeremiah-study",
+    "nameZh": "耶利米書",
+    "nameEn": "Jeremiah"
+  },
+  {
+    "slug": "lamentations-study",
+    "nameZh": "耶利米哀歌",
+    "nameEn": "Lamentations"
+  },
+  {
+    "slug": "ezekiel-study",
+    "nameZh": "以西結書",
+    "nameEn": "Ezekiel"
+  },
+  {
+    "slug": "daniel-study",
+    "nameZh": "但以理書",
+    "nameEn": "Daniel"
+  },
+  {
+    "slug": "hosea-study",
+    "nameZh": "何西阿書",
+    "nameEn": "Hosea"
+  },
+  {
+    "slug": "joel-study",
+    "nameZh": "約珥書",
+    "nameEn": "Joel"
+  },
+  {
+    "slug": "amos-study",
+    "nameZh": "阿摩司書",
+    "nameEn": "Amos"
+  },
+  {
+    "slug": "obadiah-study",
+    "nameZh": "俄巴底亞書",
+    "nameEn": "Obadiah"
+  },
+  {
+    "slug": "jonah-study",
+    "nameZh": "約拿書",
+    "nameEn": "Jonah"
+  },
+  {
+    "slug": "micah-study",
+    "nameZh": "彌迦書",
+    "nameEn": "Micah"
+  },
+  {
+    "slug": "nahum-study",
+    "nameZh": "那鴻書",
+    "nameEn": "Nahum"
+  },
+  {
+    "slug": "habakkuk-study",
+    "nameZh": "哈巴谷書",
+    "nameEn": "Habakkuk"
+  },
+  {
+    "slug": "zephaniah-study",
+    "nameZh": "西番雅書",
+    "nameEn": "Zephaniah"
+  },
+  {
+    "slug": "haggai-study",
+    "nameZh": "哈該書",
+    "nameEn": "Haggai"
+  },
+  {
+    "slug": "zechariah-study",
+    "nameZh": "撒迦利亞書",
+    "nameEn": "Zechariah"
+  },
+  {
+    "slug": "malachi-study",
+    "nameZh": "瑪拉基書",
+    "nameEn": "Malachi"
+  },
+  {
+    "slug": "new-testament-overview",
+    "nameZh": "新約總覽",
+    "nameEn": "New Testament Overview"
+  },
+  {
+    "slug": "matthew-study",
+    "nameZh": "馬太福音",
+    "nameEn": "Matthew"
+  },
+  {
+    "slug": "mark-study",
+    "nameZh": "馬可福音",
+    "nameEn": "Mark"
+  },
+  {
+    "slug": "luke-study",
+    "nameZh": "路加福音",
+    "nameEn": "Luke"
+  },
+  {
+    "slug": "john-study",
+    "nameZh": "約翰福音",
+    "nameEn": "John"
+  },
+  {
+    "slug": "acts-study",
+    "nameZh": "使徒行傳",
+    "nameEn": "Acts"
+  },
+  {
+    "slug": "romans-study",
+    "nameZh": "羅馬書",
+    "nameEn": "Romans"
+  },
+  {
+    "slug": "1-corinthians-study",
+    "nameZh": "哥林多前書",
+    "nameEn": "1 Corinthians"
+  },
+  {
+    "slug": "2-corinthians-study",
+    "nameZh": "哥林多後書",
+    "nameEn": "2 Corinthians"
+  },
+  {
+    "slug": "galatians-study",
+    "nameZh": "加拉太書",
+    "nameEn": "Galatians"
+  },
+  {
+    "slug": "ephesians-study",
+    "nameZh": "以弗所書",
+    "nameEn": "Ephesians"
+  },
+  {
+    "slug": "philippians-study",
+    "nameZh": "腓立比書",
+    "nameEn": "Philippians"
+  },
+  {
+    "slug": "colossians-study",
+    "nameZh": "歌羅西書",
+    "nameEn": "Colossians"
+  },
+  {
+    "slug": "1-thessalonians-study",
+    "nameZh": "帖撒羅尼迦前書",
+    "nameEn": "1 Thessalonians"
+  },
+  {
+    "slug": "2-thessalonians-study",
+    "nameZh": "帖撒羅尼迦後書",
+    "nameEn": "2 Thessalonians"
+  },
+  {
+    "slug": "1-timothy-study",
+    "nameZh": "提摩太前書",
+    "nameEn": "1 Timothy"
+  },
+  {
+    "slug": "2-timothy-study",
+    "nameZh": "提摩太後書",
+    "nameEn": "2 Timothy"
+  },
+  {
+    "slug": "titus-study",
+    "nameZh": "提多書",
+    "nameEn": "Titus"
+  },
+  {
+    "slug": "philemon-study",
+    "nameZh": "腓利門書",
+    "nameEn": "Philemon"
+  },
+  {
+    "slug": "hebrews-study",
+    "nameZh": "希伯來書",
+    "nameEn": "Hebrews"
+  },
+  {
+    "slug": "james-study",
+    "nameZh": "雅各書",
+    "nameEn": "James"
+  },
+  {
+    "slug": "1-peter-study",
+    "nameZh": "彼得前書",
+    "nameEn": "1 Peter"
+  },
+  {
+    "slug": "2-peter-study",
+    "nameZh": "彼得後書",
+    "nameEn": "2 Peter"
+  },
+  {
+    "slug": "1-john-study",
+    "nameZh": "約翰一書",
+    "nameEn": "1 John"
+  },
+  {
+    "slug": "2-john-study",
+    "nameZh": "約翰二書",
+    "nameEn": "2 John"
+  },
+  {
+    "slug": "3-john-study",
+    "nameZh": "約翰三書",
+    "nameEn": "3 John"
+  },
+  {
+    "slug": "jude-study",
+    "nameZh": "猶大書",
+    "nameEn": "Jude"
+  },
+  {
+    "slug": "revelation-study",
+    "nameZh": "啟示錄",
+    "nameEn": "Revelation"
+  }
+]
