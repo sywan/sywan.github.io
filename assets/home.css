@@ -67,3 +67,10 @@
 .grouped-content:has(>.more-items[open])>.preview-list{display:none}
 .grouped-content>.more-items[open]{margin-top:0}
 .grouped-content>.more-items[open]>summary{margin-bottom:6px}
+
+/* Height-aware columns keep item order while letting older entries fill
+   below whichever column is shorter. JS sets positions and container height. */
+#experience .masonry-list,#research .masonry-list,#publications .masonry-list{display:block;columns:auto;position:relative;grid-template-columns:none}
+.masonry-list>.entry-card{position:absolute;top:0;left:0;margin:0;break-inside:avoid}
+#experience .more-items>.masonry-list,#research .more-items>.masonry-list,#publications .more-items>.masonry-list{display:block;columns:auto;column-width:auto;column-count:auto;position:relative;grid-template-columns:none}
+.more-items>.masonry-list>.entry-card{margin:0}

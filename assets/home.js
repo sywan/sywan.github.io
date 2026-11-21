@@ -13,7 +13,27 @@
   function role(value){return lang==='en'?({'主持人':'PI','共同主持人':'Co-PI','參與研究':'Researcher'}[value]||value):value}
   function publicationType(value){return lang==='zh'?({'Journal':'期刊','Preprint':'預印本'}[value]||value):value}
   function card(meta,text,extra=''){return `<article class="entry-card"><div class="entry-meta">${meta}</div><p>${h(text)}</p>${extra}</article>`}
-  function grouped(items,visible,moreLabel,renderItem){const first=items.slice(0,visible).map(renderItem).join('');const rest=items.slice(visible);const hideLabel=moreLabel.replace(/^more/,'hide');return `<div class="grouped-content"><div class="entry-list preview-list">${first}</div>${rest.length?`<details class="more-items"><summary><span class="when-closed">${h(labels[lang][moreLabel])} (${rest.length})</span><span class="when-open">${h(labels[lang][hideLabel])} (${items.length})</span></summary><div class="entry-list full-list">${items.map(renderItem).join('')}</div></details>`:''}</div>`}
+  function grouped(items,visible,moreLabel,renderItem){const first=items.slice(0,visible).map(renderItem).join('');const rest=items.slice(visible);const hideLabel=moreLabel.replace(/^more/,'hide');return `<div class="grouped-content"><div class="entry-list masonry-list preview-list" data-min-width="${moreLabel==='moreExperience'?390:420}">${first}</div>${rest.length?`<details class="more-items"><summary><span class="when-closed">${h(labels[lang][moreLabel])} (${rest.length})</span><span class="when-open">${h(labels[lang][hideLabel])} (${items.length})</span></summary><div class="entry-list masonry-list full-list" data-min-width="${moreLabel==='moreExperience'?390:420}">${items.map(renderItem).join('')}</div></details>`:''}</div>`}
+  function layoutMasonry(list){
+    if(!list||!list.getClientRects().length)return;
+    const cards=[...list.children].filter(el=>el.classList.contains('entry-card'));
+    if(!cards.length)return;
+    const gap=14,width=list.clientWidth,minWidth=Number(list.dataset.minWidth)||420;
+    if(width<1)return;
+    const count=Math.min(cards.length,Math.max(1,Math.floor((width+gap)/(minWidth+gap))));
+    const cardWidth=(width-gap*(count-1))/count,heights=Array(count).fill(0);
+    cards.forEach(card=>{
+      card.style.width=`${cardWidth}px`;
+      let col=0;for(let i=1;i<count;i++)if(heights[i]<heights[col])col=i;
+      card.style.transform=`translate(${col*(cardWidth+gap)}px,${heights[col]}px)`;
+      heights[col]+=card.getBoundingClientRect().height+gap;
+    });
+    list.style.height=`${Math.max(...heights)-gap}px`;
+  }
+  function layoutAllMasonry(){document.querySelectorAll('.masonry-list').forEach(layoutMasonry)}
+  let layoutFrame=0;
+  addEventListener('resize',()=>{cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(layoutAllMasonry)});
+  document.addEventListener('toggle',e=>{if(e.target.matches?.('.more-items'))requestAnimationFrame(layoutAllMasonry)},true);
   function renderData(){if(!data)return;
     const openGroups=Object.fromEntries(['experience-list','projects-list','publications-list'].map(id=>[id,document.querySelector(`#${id} .more-items`)?.open||false]));
     const p=data.profile;
@@ -27,7 +47,7 @@
     $('#awards-list').innerHTML=data.awards.map(x=>card(`<span>${h(x.year)}</span>`,x.text)).join('');
     $('#projects-list').innerHTML=grouped(data.projects,6,'moreProjects',x=>card(`<span>${h(x.year)}</span><span class="tag">${h(role(x.role))}</span>${x.period?`<span>${h(x.period)}</span>`:''}`,x.title,`${x.sponsor||x.amount?`<p class="entry-more">${h([x.sponsor,x.amount].filter(Boolean).join(' · '))}</p>`:''}`));
     $('#publications-list').innerHTML=grouped(data.publications,6,'morePublications',x=>card(`<span>${h(x.year)}</span><span class="tag">${h(publicationType(x.type))}</span>`,x.text,x.doi?`<p class="entry-more"><a href="https://doi.org/${x.doi.split('/').map(encodeURIComponent).join('/')}" target="_blank" rel="noopener noreferrer">DOI ↗</a></p>`:''));
-    $('#playground-title').textContent=local(data.research,'playgroundTitle');$('#playground-text').textContent=local(data.research,'playgroundText');for(const [id,open] of Object.entries(openGroups))if(open){const details=document.querySelector(`#${id} .more-items`);if(details)details.open=true}
+    $('#playground-title').textContent=local(data.research,'playgroundTitle');$('#playground-text').textContent=local(data.research,'playgroundText');for(const [id,open] of Object.entries(openGroups))if(open){const details=document.querySelector(`#${id} .more-items`);if(details)details.open=true}layoutAllMasonry()
   }
   function setLanguage(next){lang=next;document.documentElement.lang=lang==='zh'?'zh-Hant':'en';const dict={...labels[lang],...window.AppsCatalog.translations[lang]};document.querySelectorAll('[data-i18n]').forEach(el=>{if(Object.hasOwn(dict,el.dataset.i18n))el.textContent=dict[el.dataset.i18n]});const button=$('#language');button.setAttribute('aria-checked',lang==='en'?'true':'false');button.setAttribute('aria-label',lang==='zh'?'語言：繁中，切換至英文':'Language: English; switch to Traditional Chinese');document.title=lang==='zh'?'萬書言 · 個人學術網站':'Shu-Yen Wan · Academic Profile';try{localStorage.setItem('site-language',lang)}catch(e){}renderData();window.AppsCatalog.render?.(lang)}
   $('#language').addEventListener('click',()=>setLanguage(lang==='zh'?'en':'zh'));
