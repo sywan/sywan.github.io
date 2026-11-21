@@ -74,3 +74,4 @@
 .masonry-list>.entry-card{position:absolute;top:0;left:0;margin:0;break-inside:avoid}
 #experience .more-items>.masonry-list,#research .more-items>.masonry-list,#publications .more-items>.masonry-list{display:block;columns:auto;column-width:auto;column-count:auto;position:relative;grid-template-columns:none}
 .more-items>.masonry-list>.entry-card{margin:0}
+#experience .grouped-content:has(>.more-items[open])>.preview-list,#research .grouped-content:has(>.more-items[open])>.preview-list,#publications .grouped-content:has(>.more-items[open])>.preview-list{display:none}
