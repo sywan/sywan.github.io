@@ -10,6 +10,8 @@
   const ui=(zh,en)=>editorLang==='zh'?zh:en;
   const homeSections=['profile','experience','courses','awards','projects','publications','research'];
   const message=(s,error=false)=>{$('#status').textContent=s;$('#status').classList.toggle('error',error)};
+  const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const publicationHtml=s=>escapeHtml(s).replace(/&lt;(\/?)(strong|u)&gt;/gi,(_,slash,tag)=>`<${slash}${tag.toLowerCase()}>`);
   const clone=x=>JSON.parse(JSON.stringify(x));
   const get=(obj,path)=>path.reduce((v,k)=>v?.[k],obj);
   const set=(obj,path,value)=>{const parent=get(obj,path.slice(0,-1));parent[path.at(-1)]=value;dirty=true;message('有尚未儲存的修改。')};
@@ -34,7 +36,17 @@
   function rerender(){const y=scrollY;render();scrollTo(0,y);dirty=true;message('有尚未儲存的修改。')}
   function renderNode(value,nodePath,parent,label,depth=0){
     if(value===null||typeof value!=='object'){
-      const row=document.createElement('div');row.className='field-row';const cap=document.createElement('label');cap.textContent=pretty(label);const input=document.createElement(typeof value==='string'&&(value.length>90||/^body(?:Zh|En)$/.test(label))?'textarea':'input');if(input.tagName==='INPUT')input.type=typeof value==='number'?'number':'text';input.value=value??'';input.addEventListener('input',()=>set(model,nodePath,typeof value==='number'?Number(input.value):input.value));cap.append(input);row.append(cap);parent.append(row);return;
+      const row=document.createElement('div');row.className='field-row';const cap=document.createElement('label');cap.textContent=pretty(label);const publicationText=selectedScope()==='home'&&nodePath[0]==='publications'&&label==='text';const input=document.createElement(publicationText||typeof value==='string'&&(value.length>90||/^body(?:Zh|En)$/.test(label))?'textarea':'input');if(input.tagName==='INPUT')input.type=typeof value==='number'?'number':'text';input.value=value??'';input.addEventListener('input',()=>set(model,nodePath,typeof value==='number'?Number(input.value):input.value));cap.append(input);row.append(cap);
+      if(publicationText){
+        const toolbar=document.createElement('div');toolbar.className='format-toolbar';
+        const hint=document.createElement('span');hint.textContent=ui('選取姓名或文字，再按格式：','Select a name or words, then format:');toolbar.append(hint);
+        const sample=document.createElement('div');sample.className='publication-preview';
+        const updateSample=()=>{sample.innerHTML=`<span>${ui('公開頁面預覽：','Page preview:')}</span> ${publicationHtml(input.value)}`};
+        function wrap(tag){const start=input.selectionStart,end=input.selectionEnd;if(start===end)return message(ui('請先在論文文字中選取要標註的部分。','First select the words to format in the publication text.'),true);input.setRangeText(`<${tag}>${input.value.slice(start,end)}</${tag}>`,start,end,'select');input.dispatchEvent(new Event('input',{bubbles:true}));input.focus()}
+        toolbar.append(makeButton(ui('粗體 B','Bold B'),()=>wrap('strong')),makeButton(ui('底線 U','Underline U'),()=>wrap('u')));
+        input.addEventListener('input',updateSample);row.append(toolbar,sample);updateSample();
+      }
+      parent.append(row);return;
     }
     const box=document.createElement('details');box.className='node';box.open=depth<1;const summary=document.createElement('summary');summary.textContent=`${pretty(label)} ${Array.isArray(value)?`(${value.length})`:''}`;box.append(summary);const body=document.createElement('div');body.className='node-body';box.append(body);parent.append(box);
     if(Array.isArray(value)){
