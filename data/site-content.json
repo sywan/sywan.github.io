@@ -514,133 +514,667 @@
       "year": 2026,
       "text": "Yu-Chen Chen and Shu-Yen Wan. (2026, Sep.). WaveGate-nnU-Net: Frequency-Domain Inclusion Preserves Segmentation Accuracy under Reduced Training Data in Nasal and Paranasal Sinus CT. MedRxiv. NSTC-114-2813-C-182-053-E. DOI: 10.64898/2026.09.10.26362809. Preprint.",
       "type": "Preprint",
-      "doi": "10.64898/2026.09.10.26362809"
+      "doi": "10.64898/2026.09.10.26362809",
+      "citation": {
+        "authors": "Yu-Chen Chen and Shu-Yen Wan",
+        "title": "WaveGate-nnU-Net: Frequency-Domain Inclusion Preserves Segmentation Accuracy under Reduced Training Data in Nasal and Paranasal Sinus CT",
+        "journal": "medRxiv",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "month": "Sep",
+        "sponsor": "National Science and Technology Council",
+        "grant": "NSTC-114-2813-C-182-053-E",
+        "note": ""
+      }
     },
     {
       "year": 2026,
       "text": "Shu-Yen Wan, Wen-Yu Chen, and Guan-Yu Lin (2026, Jul.). FreqFuseNet: Resolving Feature-Scale Mismatch in Dual-Frequency Fusion for Thin-Wall Head-and-Neck OAR Segmentation. MedRxiv. NSTC-114-2813-C-182-053-E. DOI: 10.64898/2026.07.09.26357642. Preprint.",
       "type": "Preprint",
-      "doi": "10.64898/2026.07.09.26357642"
+      "doi": "10.64898/2026.07.09.26357642",
+      "citation": {
+        "authors": "Shu-Yen Wan, Wen-Yu Chen, and Guan-Yu Lin",
+        "title": "FreqFuseNet: Resolving Feature-Scale Mismatch in Dual-Frequency Fusion for Thin-Wall Head-and-Neck OAR Segmentation",
+        "journal": "medRxiv",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "month": "Jul",
+        "sponsor": "National Science and Technology Council",
+        "grant": "NSTC-114-2813-C-182-053-E",
+        "note": ""
+      }
     },
     {
       "year": 2026,
       "text": "Shu-Yen Wan and Wen-Yu Chen (2026, Apr.). Adaptive Frequency-Spatial Dual-Stream Network (AFS-DSN) for Nasal and Paranasal Sinus CT Segmentation. IEEE ACCESS, 14, pp. 68720-68737. (SCI). DOI: 10.1109/ACCESS.2026.3689347.",
       "type": "Journal",
-      "doi": "10.1109/ACCESS.2026.3689347"
+      "doi": "10.1109/ACCESS.2026.3689347",
+      "citation": {
+        "authors": "Shu-Yen Wan and Wen-Yu Chen",
+        "title": "Adaptive Frequency-Spatial Dual-Stream Network (AFS-DSN) for Nasal and Paranasal Sinus CT Segmentation",
+        "journal": "IEEE Access",
+        "volume": "14",
+        "issue": "",
+        "pages": "68720-68737",
+        "month": "Apr",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
     },
     {
       "year": 2025,
       "text": "Cheng-Yu Li, Ta-Jen Lee, Yi-Wei Chen, Po-Hung Chang, Ya-Cheng Tang, Yu-Chieh Chen, Shu-Yen Wan, and Chia-Hsiang Fu (2025, Sep). Association Between Autonomic Dysfunction and Empty Nose Syndrome. International Forum of Allergy & Rhinology, 15(9), 993-996. (SCI). NSTC 113-2221-E-182-022, MOST 111-2221-E-182-019. DOI: 10.1002/alr.23618. Epub 2025 May 30. PMID: 40444418.",
       "type": "Journal",
-      "doi": "10.1002/alr.23618"
+      "doi": "10.1002/alr.23618",
+      "citation": {
+        "authors": "Cheng-Yu Li, Ta-Jen Lee, Yi-Wei Chen, Po-Hung Chang, Ya-Cheng Tang, Yu-Chieh Chen, Shu-Yen Wan, and Chia-Hsiang Fu",
+        "title": "Association Between Autonomic Dysfunction and Empty Nose Syndrome",
+        "journal": "International Forum of Allergy & Rhinology",
+        "volume": "15",
+        "issue": "9",
+        "pages": "993-996",
+        "month": "Sep",
+        "sponsor": "NSTC / MOST",
+        "grant": "NSTC 113-2221-E-182-022; MOST 111-2221-E-182-019",
+        "note": ""
+      }
     },
     {
       "year": 2021,
       "text": "Shu-Yen Wan, Pei-Ying Tsai, Lun-Jou Lo (2021, Sep). Quantifying Perceived Facial Asymmetry to Enhance Physician-Patient Communications. Applied Sciences, 11(18), 13 pages. (SCI). MOST 105-2221-E-182-013. DOI: 10.3390/app11188398.",
       "type": "Journal",
-      "doi": "10.3390/app11188398"
+      "doi": "10.3390/app11188398",
+      "citation": {
+        "authors": "Shu-Yen Wan, Pei-Ying Tsai, Lun-Jou Lo",
+        "title": "Quantifying Perceived Facial Asymmetry to Enhance Physician-Patient Communications",
+        "journal": "Applied Sciences",
+        "volume": "11",
+        "issue": "18",
+        "pages": "Article 8398",
+        "month": "Sep",
+        "sponsor": "Ministry of Science and Technology",
+        "grant": "MOST 105-2221-E-182-013",
+        "note": ""
+      }
     },
     {
       "year": 2021,
       "text": "Shu-Yen Wan, Lun-Jou Lo, Che-Yao Chang (2021, Mar). Disturbance-Region Removal on Landmarkless Registration of Craniofacial Images Acquired by CBCT and 3D Photography. International Journal of Emerging Technology and Advanced Engineering, 11(3), 7 pages. (Scopus). MOST 105-2221-E-182-013.",
       "type": "Journal",
-      "doi": ""
+      "doi": "",
+      "citation": {
+        "authors": "Shu-Yen Wan, Lun-Jou Lo, Che-Yao Chang",
+        "title": "Disturbance-Region Removal on Landmarkless Registration of Craniofacial Images Acquired by CBCT and 3D Photography",
+        "journal": "International Journal of Emerging Technology and Advanced Engineering",
+        "volume": "11",
+        "issue": "3",
+        "pages": "7 pages",
+        "month": "Mar",
+        "sponsor": "Ministry of Science and Technology",
+        "grant": "MOST 105-2221-E-182-013",
+        "note": ""
+      }
     },
     {
       "year": 2017,
       "text": "Shu-Yen Wan and Lun-Jou Lo, Quantitative assessment of facial asymmetry using a neuro-MCDM model. International Journal of Computer Assisted Radiology and Surgery, vol. 12, no. 1 (suppl.), pp. S165-S167, 2017 (SCI)",
-      "type": "Journal",
-      "doi": "10.1007/s11548-017-1588-3"
+      "type": "Abstract",
+      "doi": "10.1007/s11548-017-1588-3",
+      "citation": {
+        "authors": "Shu-Yen Wan and Lun-Jou Lo",
+        "title": "Quantitative assessment of facial asymmetry using a neuro-MCDM model",
+        "journal": "International Journal of Computer Assisted Radiology and Surgery",
+        "volume": "12",
+        "issue": "1 (suppl.)",
+        "pages": "S165-S167",
+        "month": "",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
     },
     {
       "year": 2016,
       "text": "Shu-Yen Wan, Pei-Ying Tsai, Yi-Ying Chen, and Lun-Jou Lo, Tri-information and classification of perceived craniofacial asymmetry. International Journal of Computer Assisted Radiology and Surgery, vol. 11, no. 1 (suppl.), pp. S138-S139, 2016 (SCI)",
-      "type": "Journal",
-      "doi": "10.1007/s11548-016-1412-5"
+      "type": "Abstract",
+      "doi": "10.1007/s11548-016-1412-5",
+      "citation": {
+        "authors": "Shu-Yen Wan, Pei-Ying Tsai, Yi-Ying Chen, and Lun-Jou Lo",
+        "title": "Tri-information and classification of perceived craniofacial asymmetry",
+        "journal": "International Journal of Computer Assisted Radiology and Surgery",
+        "volume": "11",
+        "issue": "1 (suppl.)",
+        "pages": "S138-S139",
+        "month": "",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
     },
     {
       "year": 2014,
       "text": "Shih-Wei Lin, Kuo-Ching Ying, and Shu-Yen Wan (2014, Sep). Minimizing the Total Service Time of Discrete Dynamic Berth Allocation Problem by an Iterated Greedy Heuristic. Scientific World Journal, 2014(218925), 1-12. DOI: 10.1155/2014/218925. (SCI).",
       "type": "Journal",
-      "doi": "10.1155/2014/218925"
+      "doi": "10.1155/2014/218925",
+      "citation": {
+        "authors": "Shih-Wei Lin, Kuo-Ching Ying, and Shu-Yen Wan",
+        "title": "Minimizing the Total Service Time of Discrete Dynamic Berth Allocation Problem by an Iterated Greedy Heuristic",
+        "journal": "Scientific World Journal",
+        "volume": "2014",
+        "issue": "",
+        "pages": "Article 218925",
+        "month": "Sep",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
     },
     {
       "year": 2014,
       "text": "Kuo-Ching Ying, Shih-Wei Lin, Shu-Yen Wan (2014, Mar). Bi-objective Reentrant Hybrid Flowshop Scheduling: An Iterated Pareto Greedy Algorithm. International Journal of Production Research, 52(19), 5735-5747. DOI: 10.1080/00207543.2014.910627. (SCI). MOST 102-2221-E-027-056.",
       "type": "Journal",
-      "doi": "10.1080/00207543.2014.910627"
+      "doi": "10.1080/00207543.2014.910627",
+      "citation": {
+        "authors": "Kuo-Ching Ying, Shih-Wei Lin, Shu-Yen Wan",
+        "title": "Bi-objective Reentrant Hybrid Flowshop Scheduling: An Iterated Pareto Greedy Algorithm",
+        "journal": "International Journal of Production Research",
+        "volume": "52",
+        "issue": "19",
+        "pages": "5735-5747",
+        "month": "Mar",
+        "sponsor": "Ministry of Science and Technology",
+        "grant": "MOST 102-2221-E-027-056",
+        "note": ""
+      }
     },
     {
       "year": 2014,
       "text": "H.-H. Lin, C.-S. Huang, L.-J. Lo, and Shu-Yen Wan. Automatic Assessment of Facial Attractiveness pre and post Orthognathic Surgery Based on Quantitative 3D Shape Features. International Journal of Computer Assisted Radiology and Surgery, vol. 2014, no. 9 (suppl.), pp. S189-S190, 2014. (SCI)",
-      "type": "Journal",
-      "doi": "10.1007/s11548-014-1047-3"
+      "type": "Abstract",
+      "doi": "10.1007/s11548-014-1047-3",
+      "citation": {
+        "authors": "H.-H. Lin, C.-S. Huang, L.-J. Lo, and Shu-Yen Wan",
+        "title": "Automatic Assessment of Facial Attractiveness pre and post Orthognathic Surgery Based on Quantitative 3D Shape Features",
+        "journal": "International Journal of Computer Assisted Radiology and Surgery",
+        "volume": "9",
+        "issue": "suppl.",
+        "pages": "S189-S190",
+        "month": "",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
     },
     {
       "year": 2014,
       "text": "Wen-Chung Chiang, Hsiu-Hsia Lin, Chiung-Shing Huang, Lun-Jou Lo, Shu-Yen Wan (2014, Mar). The Cluster Assessment of Facial Attractiveness Using Fuzzy Neural Network Classifier Based on 3D Moiré Features. PATTERN RECOGNITION, 47(3); pp. 1249-1260. (SCI). 本人為通訊作者.",
       "type": "Journal",
-      "doi": ""
+      "doi": "",
+      "citation": {
+        "authors": "Wen-Chung Chiang, Hsiu-Hsia Lin, Chiung-Shing Huang, Lun-Jou Lo, Shu-Yen Wan",
+        "title": "The Cluster Assessment of Facial Attractiveness Using Fuzzy Neural Network Classifier Based on 3D Moiré Features",
+        "journal": "Pattern Recognition",
+        "volume": "47",
+        "issue": "3",
+        "pages": "1249-1260",
+        "month": "Mar",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
     },
     {
       "year": 2014,
       "text": "Chung-Chih Yu, Shu-Yen Wan, Che-Yao Chang (2014, Feb). Commentary on “The labial aging process: a surface analysis based 3D evaluation”. AESTHETIC PLASTIC SURGERY, 38(1), 242-243. (SCI).",
       "type": "Journal",
-      "doi": ""
+      "doi": "",
+      "citation": {
+        "authors": "Chung-Chih Yu, Shu-Yen Wan, Che-Yao Chang",
+        "title": "Commentary on “The labial aging process: a surface analysis based 3D evaluation”",
+        "journal": "Aesthetic Plastic Surgery",
+        "volume": "38",
+        "issue": "1",
+        "pages": "242-243",
+        "month": "Feb",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
     },
     {
       "year": 2014,
-      "text": "Shu-Yen Wan, Che-Yao Chang, Chun-Ling Wang, Kun-Ju Lin (2014, Feb). Stateless Two-Stage Multiple Criteria Scheduling in Nuclear Medicine. Mathematical Problems in Engineering, 2014(642649), 1-6. (SCI).",
+      "text": "Shu-Yen Wan, Che-Yao Chang, Chun-Ling Wang, Kun-Ju Lin (2014, Feb). Stateless Two-Stage Multiple Criteria Scheduling in Nuclear Medicine. Mathematical Problems in Engineering, 2014(646249), 1-6. (SCI).",
       "type": "Journal",
-      "doi": ""
+      "doi": "10.1155/2014/646249",
+      "citation": {
+        "authors": "Shu-Yen Wan, Che-Yao Chang, Chun-Ling Wang, Kun-Ju Lin",
+        "title": "Stateless Two-Stage Multiple Criteria Scheduling in Nuclear Medicine",
+        "journal": "Mathematical Problems in Engineering",
+        "volume": "2014",
+        "issue": "",
+        "pages": "Article 646249",
+        "month": "Feb",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
     },
     {
       "year": 2013,
       "text": "Hsiu-Hsia Lin, Wen-Chung Chiang, Lun-Jou Lo, Sam Sheng-Pin Hsu, Chien- Hsuan Wang,and Shu-Yen Wan (2013, Nov). Artifact-Resistant Superimposition of Digital Dental Models and Cone-Beam Computed Tomography Images. JOURNAL OF ORAL AND MAXILLOFACIAL SURGERY, 71(11), pp. 1933- 1947. (SCI). NSC 97-2221-E-182-037-MY3.",
       "type": "Journal",
-      "doi": ""
+      "doi": "",
+      "citation": {
+        "authors": "Hsiu-Hsia Lin, Wen-Chung Chiang, Lun-Jou Lo, Sam Sheng-Pin Hsu, Chien- Hsuan Wang,and Shu-Yen Wan",
+        "title": "Artifact-Resistant Superimposition of Digital Dental Models and Cone-Beam Computed Tomography Images",
+        "journal": "Journal of Oral and Maxillofacial Surgery",
+        "volume": "71",
+        "issue": "11",
+        "pages": "1933-1947",
+        "month": "Nov",
+        "sponsor": "National Science Council",
+        "grant": "NSC 97-2221-E-182-037-MY3",
+        "note": ""
+      }
+    },
+    {
+      "year": 2012,
+      "text": "Hong-Wen Kao, Shih-Wei Lin, and Shu-Yen Wan, “Applying Decision Tree to Predict Nursing Turnover – A Case Study in a Public Hospital,” The Journal of Taiwan Association for Medical Informatics, vol. 21, no. 4, pp. 15-30, 2012. (NSC-97-2221-E-182-037-MY3).",
+      "type": "Journal",
+      "doi": "",
+      "citation": {
+        "authors": "Hong-Wen Kao, Shih-Wei Lin, and Shu-Yen Wan",
+        "title": "Applying Decision Tree to Predict Nursing Turnover – A Case Study in a Public Hospital",
+        "journal": "The Journal of Taiwan Association for Medical Informatics",
+        "volume": "21",
+        "issue": "4",
+        "pages": "15-30",
+        "month": "",
+        "note": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC-97-2221-E-182-037-MY3"
+      }
     },
     {
       "year": 2010,
       "text": "Chia-Fone Lee, Gen-Jia Li, Shu-Yen Wan, Wen-Jeng Lee, Kai-yuan Tzen, Chiung-Hsiang Chen, Yu-Lin Song, Yuan-Fang Chou, Yuh-Shyang Chen, and Tien-Chen Liu, “Registration of micro-CT and histology images of the guinea pig cochlea to construct ear model using iterative closest point algorithm,” Annals of Biomedical Engineering, vol. 38, no. 5, pp. 1719-1727, 2010. (SCI) (NSC-96-2221-E-182-042; NSC- 97-2221-E-182-037-MY3)",
       "type": "Journal",
-      "doi": ""
+      "doi": "",
+      "citation": {
+        "authors": "Chia-Fone Lee, Gen-Jia Li, Shu-Yen Wan, Wen-Jeng Lee, Kai-yuan Tzen, Chiung-Hsiang Chen, Yu-Lin Song, Yuan-Fang Chou, Yuh-Shyang Chen, and Tien-Chen Liu",
+        "title": "Registration of micro-CT and histology images of the guinea pig cochlea to construct ear model using iterative closest point algorithm",
+        "journal": "Annals of Biomedical Engineering",
+        "volume": "38",
+        "issue": "5",
+        "pages": "1719-1727",
+        "month": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC-96-2221-E-182-042; NSC-97-2221-E-182-037-MY3",
+        "note": ""
+      }
     },
     {
       "year": 2003,
       "text": "Shu-Yen Wan and William E. Higgins, “Symmetric Region Growing,” IEEE Transactions on Image Processing, vol. 12, no. 9, pp. 1007-1015, 2003. (SCI) (NSC-90-2314-B-182-093)",
       "type": "Journal",
-      "doi": ""
+      "doi": "",
+      "citation": {
+        "authors": "Shu-Yen Wan and William E. Higgins",
+        "title": "Symmetric Region Growing",
+        "journal": "IEEE Transactions on Image Processing",
+        "volume": "12",
+        "issue": "9",
+        "pages": "1007-1015",
+        "month": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC-90-2314-B-182-093",
+        "note": ""
+      }
     },
     {
       "year": 2003,
       "text": "Jiann-Der Lee, Shu-Yen Wan, and Rui-Feng Wu, “A Hybrid Compression Model for Clusters of Similar Medical Images,” Biomedical Engineering, Applications, Basis, and Communication, vol. 15, no. 1, pp. 38-45, Feb. 2003. (SCI) (EI)",
       "type": "Journal",
-      "doi": ""
+      "doi": "",
+      "citation": {
+        "authors": "Jiann-Der Lee, Shu-Yen Wan, and Rui-Feng Wu",
+        "title": "A Hybrid Compression Model for Clusters of Similar Medical Images",
+        "journal": "Biomedical Engineering, Applications, Basis, and Communication",
+        "volume": "15",
+        "issue": "1",
+        "pages": "38-45",
+        "month": "Feb",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
+    },
+    {
+      "year": 2003,
+      "text": "Cherng-Min Ma, Shu-Yen Wan, and Jiann-Der Lee, “Skeletonization on 3D Tree-Embedded Graphs,” in Proceedings on the International Society for Optical Engineering, vol. 2003, no. 1, pp. 178-186, 2003. (SCI IF2013=0.20) (EI)",
+      "type": "Proceedings",
+      "doi": "",
+      "citation": {
+        "authors": "Cherng-Min Ma, Shu-Yen Wan, and Jiann-Der Lee",
+        "title": "Skeletonization on 3D Tree-Embedded Graphs",
+        "journal": "Proceedings of SPIE",
+        "volume": "2003",
+        "issue": "1",
+        "pages": "178-186",
+        "month": "",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
+    },
+    {
+      "year": 2003,
+      "text": "Kun-Chang Yu, Erik L. Ritman, Atilla P. Kiraly, Shu-Yen Wan, Mair Zamir, and William E. Higgins, “Toward Reliable Multigenerational Analysis of Anatomical Trees in 3D High-Resolution CT Image,” in Proceedings on the International Society for Optical Engineering, vol. 2003, no. 1, pp. 286-295, 2003. (SCI IF2013=0.20) (EI)",
+      "type": "Proceedings",
+      "doi": "",
+      "citation": {
+        "authors": "Kun-Chang Yu, Erik L. Ritman, Atilla P. Kiraly, Shu-Yen Wan, Mair Zamir, and William E. Higgins",
+        "title": "Toward Reliable Multigenerational Analysis of Anatomical Trees in 3D High-Resolution CT Image",
+        "journal": "Proceedings of SPIE",
+        "volume": "2003",
+        "issue": "1",
+        "pages": "286-295",
+        "month": "",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
     },
     {
       "year": 2002,
       "text": "Cherng-Min Ma, Shu-Yen Wan, and Jiann-Der Lee, “3D Topology Preserving Reduction on the 4-Subfields,” IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 24, no. 12, pp. 1594-1605, 2002. (SCI) (EI)(NSC89-2213-E-182-013)",
       "type": "Journal",
-      "doi": ""
+      "doi": "",
+      "citation": {
+        "authors": "Cherng-Min Ma, Shu-Yen Wan, and Jiann-Der Lee",
+        "title": "3D Topology Preserving Reduction on the 4-Subfields",
+        "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "volume": "24",
+        "issue": "12",
+        "pages": "1594-1605",
+        "month": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC89-2213-E-182-013",
+        "note": ""
+      }
     },
     {
       "year": 2002,
       "text": "Shu-Yen Wan, Erik L. Ritman, and William E. Higgins, “Multi-generational Analysis and Visualization of the Vascular Tree in 3-D Micro-CT Images,” Computers in Biology and Medicine, vol. 32, no. 2, pp. 55-71, 2002. DOI: 10.1016/S0010-4825(01)00034-8. (SCI) (NSC-89-2314-B-182-147-M08) (SCI).",
       "type": "Journal",
-      "doi": "10.1016/S0010-4825(01"
+      "doi": "10.1016/S0010-4825(01)00034-8",
+      "citation": {
+        "authors": "Shu-Yen Wan, Erik L. Ritman, and William E. Higgins",
+        "title": "Multi-generational Analysis and Visualization of the Vascular Tree in 3-D Micro-CT Images",
+        "journal": "Computers in Biology and Medicine",
+        "volume": "32",
+        "issue": "2",
+        "pages": "55-71",
+        "month": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC-89-2314-B-182-147-M08",
+        "note": ""
+      }
     },
     {
       "year": 2002,
       "text": "Cherng-Min Ma, Shu-Yen Wan, and H.K. Chang. Extracting Medial Curves On 3D Images. Pattern Recognition Letters, vol. 23, no. 8, pp. 895-904, 2002. DOI: 10.1016/S0167-8655(01)00162-3. (SCI) (NSC89-2213-E-182-013)",
       "type": "Journal",
-      "doi": "10.1016/S0167-8655(01)00162-3"
+      "doi": "10.1016/S0167-8655(01)00162-3",
+      "citation": {
+        "authors": "Cherng-Min Ma, Shu-Yen Wan, and H.K. Chang",
+        "title": "Extracting Medial Curves On 3D Images",
+        "journal": "Pattern Recognition Letters",
+        "volume": "23",
+        "issue": "8",
+        "pages": "895-904",
+        "month": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC89-2213-E-182-013",
+        "note": ""
+      }
+    },
+    {
+      "year": 2002,
+      "text": "Shu-Yen Wan, Cherng-Min Ma, Eric Nung, Chih-Wei Chen, and Chia-Yu Hsu, “Development of Embeddable Real-Time Image Analysis Assistant – Using Tubular Medical Images As The Example,” Journal of Taiwan Association for Medical Informatics, no. 15, pp. 1-16, Sept. 2002. (NSC-89-2314-B-182-147-M08; NSC-90-2314-B-182-093)",
+      "type": "Journal",
+      "doi": "",
+      "citation": {
+        "authors": "Shu-Yen Wan, Cherng-Min Ma, Eric Nung, Chih-Wei Chen, and Chia-Yu Hsu",
+        "title": "Development of Embeddable Real-Time Image Analysis Assistant – Using Tubular Medical Images As The Example",
+        "journal": "Journal of Taiwan Association for Medical Informatics",
+        "volume": "",
+        "issue": "15",
+        "pages": "1-16",
+        "month": "Sept",
+        "note": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC-89-2314-B-182-147-M08; NSC-90-2314-B-182-093"
+      }
+    },
+    {
+      "year": 2002,
+      "text": "Jiann-Der Lee, Shu-Yen Wan*, and Cherng-Min Ma, “Inter-Slice Interpolation of Anisotropic 3-D Medical Images Using Multi-resolution Contour Correlation,” in Medical Imaging 2002: Image Processing, Milan Sonka, J. Michael Fitzpatrick, Editors, Proceedings of SPIE Vol. 4684, pp. 1112-1122 (2002). (SCI IF2013=0.20) (EI)",
+      "type": "Proceedings",
+      "doi": "",
+      "citation": {
+        "authors": "Jiann-Der Lee, Shu-Yen Wan*, and Cherng-Min Ma",
+        "title": "Inter-Slice Interpolation of Anisotropic 3-D Medical Images Using Multi-resolution Contour Correlation",
+        "journal": "Proceedings of SPIE",
+        "volume": "4684",
+        "issue": "",
+        "pages": "1112-1122",
+        "month": "",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
+    },
+    {
+      "year": 2002,
+      "text": "Cherng-Min Ma and Shu-Yen Wan, “Thinning Algorithm On 2D Gray-Level Images,” in Medical Imaging 2002: Image Processing, Milan Sonka, J. Michael Fitzpatrick, Editors, Proceedings of SPIE Vol. 4684, pp. 893-900 (2002). (SCI IF2013=0.20) (EI) (NSC89-2213-E-182-013)",
+      "type": "Proceedings",
+      "doi": "",
+      "citation": {
+        "authors": "Cherng-Min Ma and Shu-Yen Wan",
+        "title": "Thinning Algorithm On 2D Gray-Level Images",
+        "journal": "Proceedings of SPIE",
+        "volume": "4684",
+        "issue": "",
+        "pages": "893-900",
+        "month": "",
+        "note": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC89-2213-E-182-013"
+      }
+    },
+    {
+      "year": 2001,
+      "text": "Jiann-Der Lee, Shu-Yen Wan, and In-Kai Hung, “Design and Implementation of a PC-based Multimedia Biosignal integration system,” Biomedical Engineering, Applications, Basis, and Communication, vol. 13, No. 6, pp. 12-20, Dec. 2001. (SCI IF2013=0.23) (EI)",
+      "type": "Journal",
+      "doi": "",
+      "citation": {
+        "authors": "Jiann-Der Lee, Shu-Yen Wan, and In-Kai Hung",
+        "title": "Design and Implementation of a PC-based Multimedia Biosignal integration system",
+        "journal": "Biomedical Engineering, Applications, Basis, and Communication",
+        "volume": "13",
+        "issue": "6",
+        "pages": "12-20",
+        "month": "Dec",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
+    },
+    {
+      "year": 2001,
+      "text": "Cherng-Min Ma and Shu-Yen Wan, “A Medial-Surface Oriented 3-D Two-Subfield Thinning Algorithm,” Pattern Recognition Letters, vol. 22, no. 13, pp. 1439-1446, 2001. (SCI IF2012=1.266) (NSC89-2213-E-182-013)",
+      "type": "Journal",
+      "doi": "",
+      "citation": {
+        "authors": "Cherng-Min Ma and Shu-Yen Wan",
+        "title": "A Medial-Surface Oriented 3-D Two-Subfield Thinning Algorithm",
+        "journal": "Pattern Recognition Letters",
+        "volume": "22",
+        "issue": "13",
+        "pages": "1439-1446",
+        "month": "",
+        "note": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC89-2213-E-182-013"
+      }
+    },
+    {
+      "year": 2001,
+      "text": "Shu-Yen Wan, Erik L. Ritman, and William E. Higgins, “Multigenerational Analysis and Visualization of Large 3D Vascular Images,\" SPIE Medical Imaging 2001: Image Processing, Milan Sonka and Kenneth M. Hanson ed., SPIE Proceedings, vol. 4322, pp. 766-775, 2001. (SCI IF2013=0.20) (EI)",
+      "type": "Proceedings",
+      "doi": "",
+      "citation": {
+        "authors": "Shu-Yen Wan, Erik L. Ritman, and William E. Higgins",
+        "title": "Multigenerational Analysis and Visualization of Large 3D Vascular Images",
+        "journal": "SPIE Medical Imaging 2001: Image Processing",
+        "volume": "4322",
+        "issue": "",
+        "pages": "766-775",
+        "month": "",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
     },
     {
       "year": 2000,
       "text": "Shu-Yen Wan, A. P. Kiraly, E. L. Ritman and W. E. Higgins (2000, Sep.), Extraction of the hepatic vasculature in rats using 3-D micro-CT images. IEEE Transactions on Medical Imaging, vol. 19, no. 9, pp. 964-971. DOI: 10.1109/42.887843. (SCI)",
       "type": "Journal",
-      "doi": "10.1109/42.887843"
+      "doi": "10.1109/42.887843",
+      "citation": {
+        "authors": "Shu-Yen Wan, A. P. Kiraly, E. L. Ritman and W. E. Higgins",
+        "title": "Extraction of the hepatic vasculature in rats using 3-D micro-CT images",
+        "journal": "IEEE Transactions on Medical Imaging",
+        "volume": "19",
+        "issue": "9",
+        "pages": "964-971",
+        "month": "Sep",
+        "sponsor": "",
+        "grant": "",
+        "note": ""
+      }
+    },
+    {
+      "year": 2000,
+      "text": "Shu-Yen Wan, Cherng-Min Ma, Erik L. Ritman, and William E. Higgins, “Exploration of The Vascular Geometry in 3D CT Images,” Journal of Taiwan Association for Medical Informatics, no. 12, pp. 15-26, Dec. 2000. (NSC-89-2314-B-182-147-M08)",
+      "type": "Journal",
+      "doi": "",
+      "citation": {
+        "authors": "Shu-Yen Wan, Cherng-Min Ma, Erik L. Ritman, and William E. Higgins",
+        "title": "Exploration of The Vascular Geometry in 3D CT Images",
+        "journal": "Journal of Taiwan Association for Medical Informatics",
+        "volume": "",
+        "issue": "12",
+        "pages": "15-26",
+        "month": "Dec",
+        "note": "",
+        "sponsor": "National Science Council",
+        "grant": "NSC-89-2314-B-182-147-M08"
+      }
+    },
+    {
+      "year": 2000,
+      "text": "Cherng-Min Ma and Shu-Yen Wan, “Parallel Thinning Algorithm on 3D (18,6) Binary Images,” Computer Vision and Image Understanding, vol. 80, no. 3, pp. 364-378, 2000. (SCI IF2012=1.232)",
+      "type": "Journal",
+      "doi": "",
+      "citation": {
+        "authors": "Cherng-Min Ma and Shu-Yen Wan",
+        "title": "Parallel Thinning Algorithm on 3D (18,6) Binary Images",
+        "journal": "Computer Vision and Image Understanding",
+        "volume": "80",
+        "issue": "3",
+        "pages": "364-378",
+        "month": "",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
+    },
+    {
+      "year": 2000,
+      "text": "Shu-Yen Wan, Patricia E. Lund, Denise A. Reyes, Catherine, A. Seaman, William E. Higgins, and Erik L. Ritman, “Heterogeneity of Coronary Arterial Branching Geometry,” SPIE Medical Imaging 2000: Physiology and Function from Multidimensional Images, A. Clough and C.T. Chen eds., SPIE Proceedings, vol. 3978, pp. 515-520, 2000. (SCI IF2013=0.20) (EI)",
+      "type": "Proceedings",
+      "doi": "",
+      "citation": {
+        "authors": "Shu-Yen Wan, Patricia E. Lund, Denise A. Reyes, Catherine, A. Seaman, William E. Higgins, and Erik L. Ritman",
+        "title": "Heterogeneity of Coronary Arterial Branching Geometry",
+        "journal": "SPIE Medical Imaging 2000: Physiology and Function from Multidimensional Images",
+        "volume": "3978",
+        "issue": "",
+        "pages": "515-520",
+        "month": "",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
+    },
+    {
+      "year": 2000,
+      "text": "Anthony J. Sherbondy, Atilla P. Kiraly, Allen L. Austin, James P. Helferty, Shu-Yen Wan, Janice Z Turlington, Tao Yang, Chao Zhang, Eric A. Hoffman, Geoffrey McLennan and W.E. Higgins, “Virtual Bronchoscopic Approach for Combining 3D CT and Endoscopic Video,” SPIE Medical Imaging 2000: Physiology and Function from Multidimensional Images, A. Clough and C.T. Chen ed., SPIE Proceedings, vol. 3978, pp. 104-116, 2000. (SCI IF2013=0.20) (EI)",
+      "type": "Proceedings",
+      "doi": "",
+      "citation": {
+        "authors": "Anthony J. Sherbondy, Atilla P. Kiraly, Allen L. Austin, James P. Helferty, Shu-Yen Wan, Janice Z Turlington, Tao Yang, Chao Zhang, Eric A. Hoffman, Geoffrey McLennan and W.E. Higgins",
+        "title": "Virtual Bronchoscopic Approach for Combining 3D CT and Endoscopic Video",
+        "journal": "SPIE Medical Imaging 2000: Physiology and Function from Multidimensional Images",
+        "volume": "3978",
+        "issue": "",
+        "pages": "104-116",
+        "month": "",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
+    },
+    {
+      "year": 1999,
+      "text": "W.E. Higgins, A.J. Sherbondy, J.P. Helferty, A.P. Kiraly, G. McLennan, E.A. Hoffman, A.L. Austin, J.Z. Turlington, and Shu-Yen Wan, “PC-based system for automated quantitative virtual bronchoscopy,” Radiology, vol. 213(P), Nov. 1999. (SCI 5.996)",
+      "type": "Abstract",
+      "doi": "",
+      "citation": {
+        "authors": "W.E. Higgins, A.J. Sherbondy, J.P. Helferty, A.P. Kiraly, G. McLennan, E.A. Hoffman, A.L. Austin, J.Z. Turlington, and Shu-Yen Wan",
+        "title": "PC-based system for automated quantitative virtual bronchoscopy",
+        "journal": "Radiology",
+        "volume": "213(P)",
+        "issue": "",
+        "pages": "",
+        "month": "Nov",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
+    },
+    {
+      "year": 1999,
+      "text": "Shu-Yen Wan, Erik L. Ritman, and William E. Higgins, “Extraction and analysis of large vascular networks in 3D Micro CT images,” SPIE Medical Imaging 1999: Physiology and Function from Multidimensional Images, A. Clough and C.T. Chen, ed., SPIE Proceedings vol. 3660, pp. 322-334, 1999. (SCI IF2013=0.20) (EI)",
+      "type": "Proceedings",
+      "doi": "",
+      "citation": {
+        "authors": "Shu-Yen Wan, Erik L. Ritman, and William E. Higgins",
+        "title": "Extraction and analysis of large vascular networks in 3D Micro CT images",
+        "journal": "SPIE Medical Imaging 1999: Physiology and Function from Multidimensional Images",
+        "volume": "3660",
+        "issue": "",
+        "pages": "322-334",
+        "month": "",
+        "note": "",
+        "sponsor": "",
+        "grant": ""
+      }
     }
   ],
   "research": {
@@ -660,5 +1194,6 @@
     "linkZh": "進入實驗室網站 →",
     "linkEn": "Visit the laboratory site →",
     "url": "/BioMIG/"
-  }
+  },
+  "publicationStyle": "original"
 }

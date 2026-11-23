@@ -8,3 +8,5 @@
 .field-row.is-dirty{padding:9px;border-left:4px solid #dc9b43;border-radius:8px;background:#fff7e9}.field-row.is-dirty:after{content:'修改未儲存';font-size:11px;font-weight:800;color:#94621e}
 .edit-state{position:sticky;bottom:12px;z-index:10;width:max-content;margin:8px 0 0 auto;padding:8px 13px;border-radius:999px;background:#fff2d9;color:#754b12;border:1px solid #e9bc76;box-shadow:0 5px 18px #19344324;font-weight:800}
 .upload-status{min-height:1.5em;font-weight:800;color:#1f5a70}.upload-preview{display:block;width:min(100%,500px);height:auto;max-height:200px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:9px;margin-top:8px}.qr-preview{width:120px;height:120px}
+
+.publication-item .item-title span{white-space:normal;overflow:visible;text-overflow:clip;line-height:1.45;font-weight:750}.publication-item>.node{margin-top:8px}.publication-guide{padding:13px 16px;background:#eef5fc;border:1px solid #cbdceb;border-radius:11px;color:var(--ink)}.publication-guide p{margin:4px 0 9px;font-size:13px;color:var(--muted)}.publication-guide select{margin-left:8px}.publication-preview em{font-style:italic}
