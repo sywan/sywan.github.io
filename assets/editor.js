@@ -21,13 +21,17 @@
       const state=!dirty||same(current,published)?'clean':same(current,draft)?'draft':'unsaved';
       el.classList.toggle('status-draft',state==='draft');el.classList.toggle('status-unsaved',state==='unsaved');
     });
-    const el=$('#edit-state');el.hidden=!dirty;el.classList.toggle('draft-saved',dirty&&draftSaved);
+    const el=$('#edit-state');let otherDrafts=0;try{otherDrafts=Object.keys(localStorage).filter(key=>key.startsWith('sywan-editor-draft:')&&key!==draftKey()).length}catch(e){}
+    el.hidden=!model;el.classList.toggle('draft-saved',dirty&&draftSaved||!dirty&&otherDrafts>0);el.classList.toggle('is-clean',!dirty&&otherDrafts===0);
     const time=draftSavedAt?new Date(draftSavedAt).toLocaleTimeString(editorLang==='zh'?'zh-TW':'en',{hour:'2-digit',minute:'2-digit'}):'';
     const priorDraft=draftModel&&publishedModel&&!same(draftModel,publishedModel);
-    $('#edit-state-text').textContent=draftSaved?ui(`✓ 草稿已於 ${time} 存在此瀏覽器；尚未發布至 GitHub。`,`✓ Draft saved in this browser at ${time}; not published to GitHub.`):priorDraft?ui('● 有新的修改尚未存草稿；先前草稿也尚未發布至 GitHub。','● New edits are not saved as a draft; an earlier draft is still unpublished on GitHub.'):ui('● 有修改尚未儲存草稿，也尚未發布至 GitHub。','● Changes are not saved as a draft or published to GitHub.');
-    $('#sticky-save-draft').hidden=draftSaved;
+    const stateText=draftSaved?ui('草稿已存 · 未發布','Draft saved · Unpublished'):dirty?ui('修改未儲存 · 未發布','Unsaved edits · Unpublished'):ui('目前區塊已發布','Current section published');
+    const otherText=otherDrafts?ui(`另有 ${otherDrafts} 份草稿未發布`,` ${otherDrafts} other unpublished draft${otherDrafts===1?'':'s'}`):'';
+    $('#edit-state-text').textContent=`${dirty?'●':'✓'} ${stateText}${otherText?' · '+otherText:''}`;
+    el.title=draftSaved?ui(`草稿於 ${time} 儲存在此瀏覽器，尚未發布到 GitHub。`,`Draft saved in this browser at ${time}; not published to GitHub.`):priorDraft?ui('新的修改尚未儲存；先前草稿也尚未發布。','New edits are unsaved; a previous draft is also unpublished.'):dirty?ui('修改尚未儲存或發布。','Changes are not saved or published.'):otherDrafts?ui('目前區塊已發布；其他區塊仍有瀏覽器草稿。','Current section is published; other areas have browser drafts.'):ui('目前區塊與 GitHub 版本一致。','Current section matches GitHub.');
+    $('#sticky-save-draft').hidden=!dirty||draftSaved;$('#sticky-publish').hidden=!dirty;
     document.querySelectorAll('.draft-save-button').forEach(button=>{if(button.id==='sticky-save-draft')return;const item=button.closest('.publication-item');const saved=dirty&&(item?item.classList.contains('status-draft'):draftSaved);button.classList.toggle('is-saved',saved);button.textContent=saved?ui('✓ 草稿已儲存','✓ Draft saved'):button.id==='save-draft'?ui('儲存瀏覽器草稿','Save browser draft'):ui('儲存草稿','Save draft')});
-    document.title=dirty?ui('● 未發布 · SYWAN 網站編輯器','● Unpublished · SYWAN Site Editor'):ui('SYWAN 網站編輯器','SYWAN Site Editor');
+    document.title=dirty||otherDrafts?ui('● 未發布 · SYWAN 網站編輯器','● Unpublished · SYWAN Site Editor'):ui('SYWAN 網站編輯器','SYWAN Site Editor');
   }
   const set=(obj,path,value)=>{const parent=get(obj,path.slice(0,-1));parent[path.at(-1)]=value;updateEditState();message(ui('有尚未儲存的修改。','There are unsaved changes.'))};
   const urlFor=p=>api+p.split('/').map(encodeURIComponent).join('/');
