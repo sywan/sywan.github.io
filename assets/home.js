@@ -11,7 +11,7 @@
   function local(obj,key){return obj?.[`${key}${lang==='zh'?'Zh':'En'}`]||obj?.[`${key}Zh`]||''}
   function period(value){return lang==='en'?String(value||'').replaceAll('迄今','present'):value||''}
   function role(value){return lang==='en'?({'主持人':'PI','共同主持人':'Co-PI','參與研究':'Researcher'}[value]||value):value}
-  function publicationType(value){return lang==='zh'?({'Journal':'期刊','Preprint':'預印本','Proceedings':'會議論文','Abstract':'增刊摘要'}[value]||value):value}
+  function publicationType(value){return lang==='zh'?({'Journal':'期刊','Preprint':'預印本','Proceedings':'會議論文','Abstract':'期刊增刊摘要'}[value]||value):({'Abstract':'Journal Supplement'}[value]||value)}
   function card(meta,text,extra='',formatted=false){return `<article class="entry-card"><div class="entry-meta">${meta}</div><p>${formatted?text:h(text)}</p>${extra}</article>`}
   function grouped(items,visible,moreLabel,renderItem){const first=items.slice(0,visible).map(renderItem).join('');const rest=items.slice(visible);const hideLabel=moreLabel.replace(/^more/,'hide');return `<div class="grouped-content cv-panel"><div class="entry-list preview-list">${first}</div>${rest.length?`<details class="more-items"><summary><span class="when-closed">${h(labels[lang][moreLabel])} (${rest.length})</span><span class="when-open">${h(labels[lang][hideLabel])} (${items.length})</span></summary><div class="entry-list full-list">${items.map(renderItem).join('')}</div></details>`:''}</div>`}
   function renderData(){if(!data)return;
