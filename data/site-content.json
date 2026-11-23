@@ -666,7 +666,7 @@
     {
       "type": "Journal",
       "citation": {
-        "authors": "Kuo-Ching Ying, Shih-Wei Lin, Shu-Yen Wan",
+        "authors": "Kuo-Ching Ying, Shih-Wei Lin, and Shu-Yen Wan",
         "title": "Bi-objective Reentrant Hybrid Flowshop Scheduling: An Iterated Pareto Greedy Algorithm",
         "journal": "International Journal of Production Research",
         "volume": "52",
@@ -723,7 +723,7 @@
         "volume": "38",
         "issue": "1",
         "pages": "242-243",
-        "month": "Feb",
+        "month": "February",
         "sponsor": "",
         "grant": "",
         "note": "(SCI)",
