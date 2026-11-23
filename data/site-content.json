@@ -717,7 +717,7 @@
     {
       "type": "Journal",
       "citation": {
-        "authors": "Chung-Chih Yu, Shu-Yen Wan, Che-Yao Chang",
+        "authors": "Chung-Chih Yu, Shu-Yen Wan, and Che-Yao Chang",
         "title": "Commentary on “The labial aging process: a surface analysis based 3D evaluation”",
         "journal": "Aesthetic Plastic Surgery",
         "volume": "38",
@@ -728,13 +728,13 @@
         "grant": "",
         "note": "(SCI)",
         "year": 2014,
-        "doi": ""
+        "doi": "10.1007/s00266-013-0240-z"
       }
     },
     {
       "type": "Journal",
       "citation": {
-        "authors": "Shu-Yen Wan, Che-Yao Chang, Chun-Ling Wang, Kun-Ju Lin",
+        "authors": "Shu-Yen Wan, Che-Yao Chang, Chun-Ling Wang, and Kun-Ju Lin",
         "title": "Stateless Two-Stage Multiple Criteria Scheduling in Nuclear Medicine",
         "journal": "Mathematical Problems in Engineering",
         "volume": "2014",
@@ -757,7 +757,7 @@
         "volume": "71",
         "issue": "11",
         "pages": "1933-1947",
-        "month": "Nov",
+        "month": "November",
         "sponsor": "National Science Council",
         "grant": "NSC 97-2221-E-182-037-MY3",
         "note": "(SCI)",
@@ -813,7 +813,7 @@
         "grant": "NSC-90-2314-B-182-093",
         "note": "(SCI)",
         "year": 2003,
-        "doi": ""
+        "doi": "10.1109/TIP.2003.815258"
       }
     },
     {
@@ -879,7 +879,7 @@
         "month": "",
         "sponsor": "National Science Council",
         "grant": "NSC89-2213-E-182-013",
-        "note": "(SCI); (EI)",
+        "note": "(SCI)",
         "year": 2002,
         "doi": ""
       }
@@ -983,7 +983,7 @@
         "sponsor": "",
         "grant": "",
         "year": 2001,
-        "doi": ""
+        "doi": "10.4015/S1016237201000340"
       }
     },
     {
@@ -996,11 +996,11 @@
         "issue": "13",
         "pages": "1439-1446",
         "month": "",
-        "note": "(SCI IF2012=1.266)",
+        "note": "(SCI)",
         "sponsor": "National Science Council",
         "grant": "NSC89-2213-E-182-013",
         "year": 2001,
-        "doi": ""
+        "doi": "10.1016/S0167-8655(01)00083-6"
       }
     },
     {
@@ -1013,7 +1013,7 @@
         "issue": "",
         "pages": "766-775",
         "month": "",
-        "note": "(SCI IF2013=0.20); (EI)",
+        "note": "(EI)",
         "sponsor": "",
         "grant": "",
         "year": 2001,
@@ -1031,7 +1031,7 @@
         "pages": "964-971",
         "month": "Sep",
         "sponsor": "",
-        "grant": "",
+        "grant": "DIL24031/PHS HHS; R01-CA74325/CA/NCI NIH HHS; R01-RR11800/RR/NCRR NIH HHS",
         "note": "(SCI)",
         "year": 2000,
         "doi": "10.1109/42.887843"
