@@ -26,7 +26,7 @@
     el.hidden=!model;el.classList.toggle('draft-saved',dirty&&draftSaved||!dirty&&otherDrafts>0);el.classList.toggle('is-clean',!dirty&&otherDrafts===0);
     const time=draftSavedAt?new Date(draftSavedAt).toLocaleTimeString(editorLang==='zh'?'zh-TW':'en',{hour:'2-digit',minute:'2-digit'}):'';
     const priorDraft=draftModel&&publishedModel&&!same(draftModel,publishedModel);
-    const stateText=draftSaved?ui('草稿已存 · 未發布','Draft saved · Unpublished'):dirty?ui('修改未儲存 · 未發布','Unsaved edits · Unpublished'):ui('目前區塊已發布','Current section published');
+    const stateText=draftSaved?ui('草稿已存 · 未發布','Draft saved · Unpublished'):dirty?ui('修改未儲存 · 未發布','Unsaved edits · Unpublished'):ui('目前區塊已提交 GitHub','Current section saved to GitHub');
     const otherText=otherDrafts?ui(`另有 ${otherDrafts} 份草稿未發布`,` ${otherDrafts} other unpublished draft${otherDrafts===1?'':'s'}`):'';
     $('#edit-state-text').textContent=`${dirty?'●':'✓'} ${stateText}${otherText?' · '+otherText:''}`;
     el.title=draftSaved?ui(`草稿於 ${time} 儲存在此瀏覽器，尚未發布到 GitHub。`,`Draft saved in this browser at ${time}; not published to GitHub.`):priorDraft?ui('新的修改尚未儲存；先前草稿也尚未發布。','New edits are unsaved; a previous draft is also unpublished.'):dirty?ui('修改尚未儲存或發布。','Changes are not saved or published.'):otherDrafts?ui('目前區塊已發布；其他區塊仍有瀏覽器草稿。','Current section is published; other areas have browser drafts.'):ui('目前區塊與 GitHub 版本一致。','Current section matches GitHub.');
@@ -95,7 +95,7 @@
         else if(!isPublication)title.textContent=`${i+1}. ${preview(item,i)}`;
         heading.append(title);wrap.append(heading);
         const actions=document.createElement('div');actions.className='item-actions';
-        actions.append(makeButton(ui('複製','Duplicate'),()=>{value.splice(i+1,0,clone(item));rerender(focusPath,i+1)}));
+        actions.append(makeButton(ui('複製此筆','Duplicate item'),()=>{if(isAward&&!confirm(ui('確定要複製這筆獎項嗎？會在下方建立一筆內容完全相同的新項目。','Duplicate this award? An identical new item will be inserted below.')))return;value.splice(i+1,0,clone(item));rerender(focusPath,i+1);if(isAward)message(ui('已複製獎項；請修改新項目，並儲存草稿或發布。','Award duplicated. Edit the new item, then save a draft or publish.'))}));
         if(isPublication||isAward){const fresh=()=>isPublication?newPublication():{year:String(new Date().getFullYear()),text:''};actions.append(makeButton(ui('前方新增','Insert before'),()=>{value.splice(i,0,fresh());rerender(focusPath,i,true)}),makeButton(ui('後方新增','Insert after'),()=>{value.splice(i+1,0,fresh());rerender(focusPath,i+1,true)}))}
         actions.append(makeButton('↑',()=>{if(i>0){[value[i-1],value[i]]=[value[i],value[i-1]];rerender(focusPath,i-1)}}),makeButton('↓',()=>{if(i<value.length-1){[value[i],value[i+1]]=[value[i+1],value[i]];rerender(focusPath,i+1)}}));
         if(isPublication)actions.append(makeButton(ui('儲存草稿','Save draft'),saveDraft,'secondary draft-save-button'));
