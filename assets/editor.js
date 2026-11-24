@@ -11,6 +11,7 @@
   const homeSections=['profile','experience','courses','awards','projects','labPortal','publications','research'];
   const message=(s,error=false)=>{$('#status').textContent=s;$('#status').classList.toggle('error',error)};
   const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const inlineText=s=>escapeHtml(s).replace(/\^\{([^{}<>\s]{1,8})\}/g,'<sup>$1</sup>');
   const clone=x=>JSON.parse(JSON.stringify(x));
   const get=(obj,path)=>path.reduce((v,k)=>v?.[k],obj);
   const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
@@ -90,7 +91,7 @@
         const focusPath=nodePath.join('.');
         const wrap=document.createElement('div');wrap.className=isPublication?'node publication-item':isAward?'node award-item':'node';wrap.dataset.arrayPath=focusPath;wrap.dataset.arrayIndex=i;wrap.dataset.editPath=[...nodePath,i].join('.');
         const heading=document.createElement('div');heading.className='item-title';const title=document.createElement('span');
-        if(isAward)title.textContent=`${i+1}. ${item.text||ui('新項目','New item')}`;
+        if(isAward)title.innerHTML=`${i+1}. ${inlineText(item.text||ui('新項目','New item'))}`;
         else if(!isPublication)title.textContent=`${i+1}. ${preview(item,i)}`;
         heading.append(title);wrap.append(heading);
         const actions=document.createElement('div');actions.className='item-actions';
@@ -100,7 +101,7 @@
         if(isPublication)actions.append(makeButton(ui('儲存草稿','Save draft'),saveDraft,'secondary draft-save-button'));
         actions.append(makeButton(ui('刪除','Delete'),()=>{if(confirm(ui('刪除這筆內容？','Delete this item?'))){value.splice(i,1);rerender(focusPath,Math.min(i,value.length-1))}},'danger'));
         wrap.append(actions);if(isPublication)renderPublicationForm(item,[...nodePath,i],wrap,title,i);else renderNode(item,[...nodePath,i],wrap,Array.isArray(value)&&value.length===2&&typeof item==='string'?(i===0?'繁體中文':'English'):`第 ${i+1} 項`,depth+1);
-        if(isAward){const live=document.createElement('div');live.className='award-live-preview';const update=()=>{title.textContent=`${i+1}. ${item.text||ui('新項目','New item')}`;live.innerHTML=`<strong>${ui('公開頁面預覽','Public page preview')}</strong><div class="award-preview-row"><span>${escapeHtml(item.year)}</span><p>${escapeHtml(item.text)}</p></div>`};wrap.addEventListener('input',update);update();wrap.append(live)}body.append(wrap)
+        if(isAward){const live=document.createElement('div');live.className='award-live-preview';const update=()=>{title.innerHTML=`${i+1}. ${inlineText(item.text||ui('新項目','New item'))}`;live.innerHTML=`<strong>${ui('公開頁面預覽','Public page preview')}</strong><div class="award-preview-row"><span>${escapeHtml(item.year)}</span><p>${inlineText(item.text)}</p></div>`};wrap.addEventListener('input',update);update();wrap.append(live)}body.append(wrap)
       });
       body.append(makeButton(ui('＋ 新增一筆','＋ Add item'),()=>{const key=nodePath.at(-1);const template=key==='publications'?newPublication():key==='awards'?{year:String(new Date().getFullYear()),text:''}:value.length?blankLike(value.at(-1)):key===selectedBook()&&selectedScope()==='resources'?{titleZh:'',titleEn:'',bodyZh:'',bodyEn:'',url:''}:key==='courses'?{zh:'',en:''}:'';value.push(template);rerender(nodePath.join('.'),value.length-1,true)}));
     }else for(const [key,child] of Object.entries(value))renderNode(child,[...nodePath,key],body,key,depth+1);
