@@ -144,11 +144,11 @@
   "awards": [
     {
       "year": 2025,
-      "text": "Best Paper Award; Wen-Yu Chen, Cheng-Yu Chu, Wen-Yi Huang, and Shu-Yen Wan, \"AFS-DSN: Adaptive Frequency-Spatial Dual-Stram Network for Nasal and Paranasal Sinus CT Segmentation,\" 6th International Conference on Medical Design (MD2025), Taoyuan, Taiwan, Dec. 19th-22nd, 2025."
+      "text": "Best Paper Award; Wen-Yu Chen, Cheng-Yu Chu, Wen-Yi Huang, and Shu-Yen Wan, \"AFS-DSN: Adaptive Frequency-Spatial Dual-Stram Network for Nasal and Paranasal Sinus CT Segmentation,\" 6th International Conference on Medical Design (MD2025), Taoyuan, Taiwan, Dec. 19^{th}-22^{nd}, 2025."
     },
     {
       "year": "2022",
-      "text": "2022年國家新創精進獎(新創醫療技術：精進面向：核心技術、臨床/驗證)，林口長庚紀念醫院，李達人、黃啟哲、張伯宏、陳益瑋、傅嘉祥、吳佳臻、黃建嘉、吳佩雯、萬書言、蕭彥彰、李晉邦、傅士珆、蔡孟潔，｢空鼻症之全方位評估與客製化內視鏡微創鼻腔重建｣，並收錄於2023 年國家新創獎精進標竿技術年鑑."
+      "text": "2022 年國家新創精進獎(新創醫療技術：精進面向：核心技術、臨床/驗證)，林口長庚紀念醫院，李達人、黃啟哲、張伯宏、陳益瑋、傅嘉祥、吳佳臻、黃建嘉、吳佩雯、萬書言、蕭彥彰、李晉邦、傅士珆、蔡孟潔，｢空鼻症之全方位評估與客製化內視鏡微創鼻腔重建｣，並收錄於2023 年國家新創獎精進標竿技術年鑑."
     },
     {
       "year": "2021",
@@ -156,11 +156,11 @@
     },
     {
       "year": "2018",
-      "text": "2018 IEEE ICASI Best Paper Award; Shu-Yen Wan, Che-Yao Chang, Tomas Su, Lun-Jou Lo, and Chih-Yung Chen, “Landmark-less Registration of Craniomaxillofacial Images Acquired from 3D Photography and CBCT with Disturbance-Region Removal,” International Conference on Applied System Innovation, April 13-17, 2018, Chiba, ToKyo, Japan."
+      "text": "2018 IEEE ICASI Best Paper Award; Shu-Yen Wan, Che-Yao Chang, Tomas Su, Lun-Jou Lo, and Chih-Yung Chen, “Landmark-less Registration of Craniomaxillofacial Images Acquired from 3D Photography and CBCT with Disturbance-Region Removal,” International Conference on Applied System Innovation, April 13^{th}-17^{th}, 2018, Chiba, ToKyo, Japan."
     },
     {
       "year": "2017",
-      "text": "中華民國新發明專利 I595430, 萬書言、蔡佩穎、羅綸洲、張哲堯, 評估顏面整體對稱性的方法及評估系統, Effective Aug. 11^{th}, 2017 - Dec. 6th, 2036"
+      "text": "中華民國新發明專利 I595430, 萬書言、蔡佩穎、羅綸洲、張哲堯, 評估顏面整體對稱性的方法及評估系統, Effective Aug. 11^{th}, 2017 - Dec. 6^{th}, 2036"
     },
     {
       "year": "2015",
@@ -172,7 +172,7 @@
     },
     {
       "year": "2000",
-      "text": "2000 MIST Best Paper Award; Shu-Yen Wan, Erik L. Ritman, and William E. Higgins, “Exploration of Extracted Geometrical Information from 3D Vascular Images,” Medical Informatics Symposium in Taiwan 2000, Taipei, Taiwan, Oct. 26-29, 2000."
+      "text": "2000 MIST Best Paper Award; Shu-Yen Wan, Erik L. Ritman, and William E. Higgins, “Exploration of Extracted Geometrical Information from 3D Vascular Images,” Medical Informatics Symposium in Taiwan 2000, Taipei, Taiwan, Oct. 26^{th}-29^{th}, 2000."
     }
   ],
   "projects": [
