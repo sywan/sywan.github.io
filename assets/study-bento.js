@@ -6,11 +6,12 @@
   const language = () => { try { return localStorage.getItem('site-language') === 'en' ? 'en' : 'zh' } catch (_) { return 'zh' } };
   let cards = [];
   function editLink() {
-    const crumbs = document.querySelector('.crumbs');
+    const crumbs = document.querySelector('.crumbs,.breadcrumbs');
     if (!crumbs) return;
     let link = document.getElementById('study-editor-link');
-    if (!link) { link = document.createElement('a'); link.id = 'study-editor-link'; link.href = `/site-editor/?scope=${slug === 'job-study' ? 'cards' : 'study'}&book=${encodeURIComponent(slug)}`; crumbs.append(link) }
-    link.textContent = language() === 'zh' ? '編輯本卷研讀內容' : 'Edit this study page';
+    if (!link) { link = document.createElement('a'); link.id = 'study-editor-link'; link.href = `/site-editor/?scope=study&book=${encodeURIComponent(slug)}`; crumbs.append(link) }
+    const label = language() === 'zh' ? '編輯本卷研讀內容' : 'Edit this study page';
+    if (link.textContent !== label) link.textContent = label;
   }
   function render() {
     editLink();
@@ -32,6 +33,7 @@
   style.textContent = '.editor-study-cards{margin:30px 0}.editor-study-cards h2{font-size:clamp(24px,2.4vw,34px)}.editor-study-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:15px}.editor-study-card{min-width:0;background:#fff;border:1px solid #d8e2e7;border-radius:15px;padding:20px;overflow-wrap:anywhere}.editor-study-card h3{margin:0 0 8px;color:#20577a}.editor-study-card p{white-space:pre-line;margin:0 0 8px}.editor-study-card a{font-weight:700}';
   document.head.append(style);
   editLink();
+  new MutationObserver(() => { if (!document.getElementById('study-editor-link')) editLink() }).observe(document.body,{childList:true,subtree:true});
   fetch('/data/study-cards.json', {cache:'no-store'}).then(response => response.ok ? response.json() : {}).then(data => { cards = Array.isArray(data[slug]) ? data[slug] : []; render() }).catch(() => {});
   new MutationObserver(render).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
 })();

@@ -1254,5 +1254,759 @@
         "en": "David Pawson’s Old Testament Survey | Job (Part 2) · PDF ↗"
       }
     ]
-  ]
+  ],
+  "copyNavigation": {
+    "item001": {
+      "label": "鷹眼總覽",
+      "zh": "鷹眼總覽",
+      "en": "Bird’s-eye view"
+    },
+    "item002": {
+      "label": "故事與人物",
+      "zh": "故事與人物",
+      "en": "Story & people"
+    },
+    "item003": {
+      "label": "對話地圖",
+      "zh": "對話地圖",
+      "en": "Dialogue map"
+    },
+    "item004": {
+      "label": "逐章深入",
+      "zh": "逐章深入",
+      "en": "Chapter explorer"
+    },
+    "item005": {
+      "label": "神學與問題",
+      "zh": "神學與問題",
+      "en": "Themes & questions"
+    },
+    "item006": {
+      "label": "教學與經文",
+      "zh": "教學與經文",
+      "en": "Teaching & verses"
+    },
+    "item007": {
+      "label": "八課教案",
+      "zh": "八課教案",
+      "en": "8 lesson plans"
+    },
+    "item008": {
+      "label": "教師講稿",
+      "zh": "教師講稿",
+      "en": "Teacher scripts"
+    },
+    "item009": {
+      "label": "討論解答",
+      "zh": "討論解答",
+      "en": "Discussion & answers"
+    },
+    "item010": {
+      "label": "頁面層級",
+      "zh": "頁面層級",
+      "en": "Page levels"
+    },
+    "item011": {
+      "label": "← 個人首頁",
+      "zh": "← 個人首頁",
+      "en": "← Personal home"
+    },
+    "item012": {
+      "label": "← 聖經研讀",
+      "zh": "← 聖經研讀",
+      "en": "← Bible Study"
+    },
+    "item013": {
+      "label": "約伯記｜成人主日學教師版",
+      "zh": "約伯記｜成人主日學教師版",
+      "en": "The Book of Job | Teacher Edition"
+    },
+    "item014": {
+      "label": "42 章的苦難、辯論、追問與相遇：能鳥瞰全書，也能逐章深讀。",
+      "zh": "42 章的苦難、辯論、追問與相遇：能鳥瞰全書，也能逐章深讀。",
+      "en": "A 42-chapter journey through suffering, debate, protest, and encounter—with both panorama and close reading."
+    },
+    "item015": {
+      "label": "閱讀經文預設：",
+      "zh": "閱讀經文預設：",
+      "en": "Default Scripture: "
+    },
+    "item016": {
+      "label": "新標點和合本（神版） ↗",
+      "zh": "新標點和合本（神版） ↗",
+      "en": "NASB 2020 ↗"
+    },
+    "item017": {
+      "label": "本站內容為研讀摘要，完整經文由聖經閱讀頁提供。",
+      "zh": "本站內容為研讀摘要，完整經文由聖經閱讀頁提供。",
+      "en": "Study notes here are original summaries; the link opens the full text."
+    }
+  },
+  "copyOverview": {
+    "item001": {
+      "label": "一眼讀懂《約伯記》",
+      "zh": "一眼讀懂《約伯記》",
+      "en": "The whole book at a glance"
+    },
+    "item002": {
+      "label": "先讀清楚敘事的轉折，再進入每個人的論證。",
+      "zh": "先讀清楚敘事的轉折，再進入每個人的論證。",
+      "en": "Follow the story’s turning points before evaluating each speaker."
+    },
+    "item003": {
+      "label": "全書篇幅",
+      "zh": "全書篇幅",
+      "en": "Length"
+    },
+    "item004": {
+      "label": "章，序幕與結局主要用敘事文；核心大量使用希伯來詩歌。",
+      "zh": "章，序幕與結局主要用敘事文；核心大量使用希伯來詩歌。",
+      "en": "chapters: narrative frame around extensive Hebrew poetry."
+    },
+    "item005": {
+      "label": "核心張力",
+      "zh": "核心張力",
+      "en": "Central tension"
+    },
+    "item006": {
+      "label": "義人為何受苦？",
+      "zh": "義人為何受苦？",
+      "en": "Why do the righteous suffer?"
+    },
+    "item007": {
+      "label": "更深的問題：人能否在不理解原因時仍敬畏神？",
+      "zh": "更深的問題：人能否在不理解原因時仍敬畏神？",
+      "en": "A deeper question: can humans revere God without knowing why?"
+    },
+    "item008": {
+      "label": "敘事終點",
+      "zh": "敘事終點",
+      "en": "Destination"
+    },
+    "item009": {
+      "label": "「現在親眼看見你」",
+      "zh": "「現在親眼看見你」",
+      "en": "“Now my eyes have seen you.”"
+    },
+    "item010": {
+      "label": "42:5；不是取得完整苦難解釋，而是面對神自己。",
+      "zh": "42:5；不是取得完整苦難解釋，而是面對神自己。",
+      "en": "42:5; encounter, not a complete theory of suffering."
+    },
+    "item011": {
+      "label": "讀者比約伯知道得多",
+      "zh": "讀者比約伯知道得多",
+      "en": "Readers know more than Job"
+    },
+    "item012": {
+      "label": "只有讀者看到第1–2章的天上場景；朋友不知、約伯不知。從始至終，神也沒有",
+      "zh": "只有讀者看到第1–2章的天上場景；朋友不知、約伯不知。從始至終，神也沒有向約伯揭露那段幕後對話。",
+      "en": "Only readers witness the heavenly council of chapters 1–2. Job and the friends do not; God never discloses it to Job."
+    },
+    "item013": {
+      "label": "全書九個段落 · 點擊前往逐章",
+      "zh": "全書九個段落 · 點擊前往逐章",
+      "en": "Nine movements · click to explore chapters"
+    },
+    "item014": {
+      "label": "全書最重要的閱讀鑰匙",
+      "zh": "全書最重要的閱讀鑰匙",
+      "en": "The essential interpretive key"
+    },
+    "item015": {
+      "label": "約伯的朋友往往說出「部分真理」，卻錯誤地用它們診斷一位具體受苦者。神回答",
+      "zh": "約伯的朋友往往說出「部分真理」，卻錯誤地用它們診斷一位具體受苦者。神回答約伯的方式，不是讓他看見苦難的完整因果圖，而是讓他在真實相遇中看見自己的認知邊界。",
+      "en": "The friends sometimes state partial truths but misuse them to diagnose a particular sufferer. God does not provide Job a full causal diagram; he encounters Job and exposes the limits of human perspective."
+    }
+  },
+  "copyStory": {
+    "item001": {
+      "label": "故事進程與角色視角",
+      "zh": "故事進程與角色視角",
+      "en": "The story and its viewpoints"
+    },
+    "item002": {
+      "label": "刻意區分「發生了什麼」、「角色知道什麼」、「角色誤以為什麼」。",
+      "zh": "刻意區分「發生了什麼」、「角色知道什麼」、「角色誤以為什麼」。",
+      "en": "Distinguish what happened, what each character knows, and what they merely assume."
+    },
+    "item003": {
+      "label": "① 第一幕：敬虔與試驗（1–2章）",
+      "zh": "① 第一幕：敬虔與試驗（1–2章）",
+      "en": "① Integrity and testing (1–2)"
+    },
+    "item004": {
+      "label": "約伯居住烏斯地，有七個兒子、三個女兒，擁有大量牲畜與僕人，經常為兒女獻祭",
+      "zh": "約伯居住烏斯地，有七個兒子、三個女兒，擁有大量牲畜與僕人，經常為兒女獻祭。天上議會中，控告者懷疑約伯的忠誠只是受福所換來的。神允許考驗但設有限制。",
+      "en": "Job of Uz has seven sons, three daughters, many animals and servants. The accuser questions whether his reverence is purchased by blessing; the test has limits."
+    },
+    "item005": {
+      "label": "② 第一波損失（1:13–22）",
+      "zh": "② 第一波損失（1:13–22）",
+      "en": "② First wave of losses (1:13–22)"
+    },
+    "item006": {
+      "label": "示巴人掠走牛驢、天火燒毀羊群、迦勒底人擄走駱駝、狂風吹倒房屋，七子三女死",
+      "zh": "示巴人掠走牛驢、天火燒毀羊群、迦勒底人擄走駱駝、狂風吹倒房屋，七子三女死去。四名報信者接連而至。約伯撕裂衣袍、剃頭、俯伏敬拜。",
+      "en": "Raiders take oxen and donkeys; fire destroys sheep; other raiders seize camels; a wind collapses a house, killing seven sons and three daughters. Four messengers arrive in succession; Job grieves and worships."
+    },
+    "item007": {
+      "label": "③ 第二波損失（2章）",
+      "zh": "③ 第二波損失（2章）",
+      "en": "③ Second wave (chapter 2)"
+    },
+    "item008": {
+      "label": "約伯從腳掌到頭頂長毒瘡，以瓦片刮身；妻子痛問信仰是否還值得持守。三位朋友",
+      "zh": "約伯從腳掌到頭頂長毒瘡，以瓦片刮身；妻子痛問信仰是否還值得持守。三位朋友先與他同哭，再靜坐七日。最初的安靜陪伴，反而比後來的話語更有力量。",
+      "en": "Painful sores cover Job’s body. He scrapes himself with pottery; his wife voices anguish. Three friends weep and sit seven silent days—arguably their best act of care."
+    },
+    "item009": {
+      "label": "④ 申訴與辯論（3–31章）",
+      "zh": "④ 申訴與辯論（3–31章）",
+      "en": "④ Protest and debate (3–31)"
+    },
+    "item010": {
+      "label": "約伯先咒詛生日，再和三友激烈辯論：他不自認無罪至完美，而是反駁自己必曾犯",
+      "zh": "約伯先咒詛生日，再和三友激烈辯論：他不自認無罪至完美，而是反駁自己必曾犯下足以解釋災禍的惡行。最後他要求神親自審理。",
+      "en": "Job laments his birth, then debates his friends. He does not claim sinless perfection but rejects the alleged wrongdoing used to explain his disaster; he demands a hearing."
+    },
+    "item011": {
+      "label": "⑤ 年輕人發言（32–37章）",
+      "zh": "⑤ 年輕人發言（32–37章）",
+      "en": "⑤ A younger voice (32–37)"
+    },
+    "item012": {
+      "label": "以利戶先說明自己因年輕而等待，接著發言。與「一切苦難都是犯罪報應」相比，",
+      "zh": "以利戶先說明自己因年輕而等待，接著發言。與「一切苦難都是犯罪報應」相比，他額外強調苦難也可能警醒與塑造人；但此解釋並不能確定約伯的個案。",
+      "en": "Elihu waits because he is younger, then speaks. He adds suffering as warning and discipline, but this does not settle Job’s specific case."
+    },
+    "item013": {
+      "label": "⑥ 旋風與結局（38–42章）",
+      "zh": "⑥ 旋風與結局（38–42章）",
+      "en": "⑥ Whirlwind and epilogue (38–42)"
+    },
+    "item014": {
+      "label": "神兩次發問，約伯兩次回答。神沒有交代天上試驗，卻在宇宙與生態萬物中展示治",
+      "zh": "神兩次發問，約伯兩次回答。神沒有交代天上試驗，卻在宇宙與生態萬物中展示治理的豐富和人的有限。之後神責備三友，接納約伯為三友代求，並使他重新得福。",
+      "en": "God questions twice and Job replies twice. The heavenly test is never disclosed; creation reveals the vastness of divine governance. God rebukes the friends, receives Job’s intercession, and restores his fortunes."
+    },
+    "item015": {
+      "label": "人物不是扁平的「好人／壞人」",
+      "zh": "人物不是扁平的「好人／壞人」",
+      "en": "Characters are not simply good or bad"
+    },
+    "item016": {
+      "label": "人物",
+      "zh": "人物",
+      "en": "Person"
+    },
+    "item017": {
+      "label": "立場與功能",
+      "zh": "立場與功能",
+      "en": "Perspective and function"
+    },
+    "item018": {
+      "label": "約伯",
+      "zh": "約伯",
+      "en": "Job"
+    },
+    "item019": {
+      "label": "正直卻受苦；真誠向神申訴，有時說出需要被神糾正的話。",
+      "zh": "正直卻受苦；真誠向神申訴，有時說出需要被神糾正的話。",
+      "en": "Blameless sufferer; honest protest, at times corrected by God."
+    },
+    "item020": {
+      "label": "以利法",
+      "zh": "以利法",
+      "en": "Eliphaz"
+    },
+    "item021": {
+      "label": "以人生經驗、異象和傳統推論約伯有罪。",
+      "zh": "以人生經驗、異象和傳統推論約伯有罪。",
+      "en": "Reasons from experience, vision, and tradition to Job’s guilt."
+    },
+    "item022": {
+      "label": "比勒達",
+      "zh": "比勒達",
+      "en": "Bildad"
+    },
+    "item023": {
+      "label": "訴諸祖先傳統與神公義，認定災難必有道德原因。",
+      "zh": "訴諸祖先傳統與神公義，認定災難必有道德原因。",
+      "en": "Appeals to tradition and justice, assuming disaster has a moral cause."
+    },
+    "item024": {
+      "label": "瑣法",
+      "zh": "瑣法",
+      "en": "Zophar"
+    },
+    "item025": {
+      "label": "措辭最直接、急切要求約伯悔改。",
+      "zh": "措辭最直接、急切要求約伯悔改。",
+      "en": "Most forceful and impatient in urging repentance."
+    },
+    "item026": {
+      "label": "以利戶",
+      "zh": "以利戶",
+      "en": "Elihu"
+    },
+    "item027": {
+      "label": "年輕發言者，強調神藉苦難教導；其準確性仍需分辨。",
+      "zh": "年輕發言者，強調神藉苦難教導；其準確性仍需分辨。",
+      "en": "Young speaker emphasizing discipline; his conclusions remain debatable."
+    },
+    "item028": {
+      "label": "約伯的妻子",
+      "zh": "約伯的妻子",
+      "en": "Job’s wife"
+    },
+    "item029": {
+      "label": "同樣受創的家人；只記錄了一段極其痛苦的發言。",
+      "zh": "同樣受創的家人；只記錄了一段極其痛苦的發言。",
+      "en": "A fellow sufferer with one anguished recorded statement."
+    },
+    "item030": {
+      "label": "神",
+      "zh": "神",
+      "en": "God"
+    },
+    "item031": {
+      "label": "最終親自發言，責備三友，並使約伯為他們代禱。",
+      "zh": "最終親自發言，責備三友，並使約伯為他們代禱。",
+      "en": "Speaks personally, rebukes the three friends, receives Job’s intercession."
+    },
+    "item032": {
+      "label": "控告者",
+      "zh": "控告者",
+      "en": "The accuser"
+    },
+    "item033": {
+      "label": "序幕天上議會中的質疑者；未出現在約伯與三友的論辯中。",
+      "zh": "序幕天上議會中的質疑者；未出現在約伯與三友的論辯中。",
+      "en": "Challenges Job’s motivation in the prologue; absent from the debates."
+    }
+  },
+  "copyDebates": {
+    "item001": {
+      "label": "完整對話地圖",
+      "zh": "完整對話地圖",
+      "en": "The dialogue map"
+    },
+    "item002": {
+      "label": "關鍵不是誰講了最多，而是每個人預設什麼，以及誰擁有證據。",
+      "zh": "關鍵不是誰講了最多，而是每個人預設什麼，以及誰擁有證據。",
+      "en": "Ask what each speaker assumes—and whether the claims are supported."
+    },
+    "item003": {
+      "label": "特別留意：不是三輪「完整的九場」",
+      "zh": "特別留意：不是三輪「完整的九場」",
+      "en": "Important: not nine symmetrical speeches"
+    },
+    "item004": {
+      "label": "前兩輪完整，第三輪的比勒達僅25章六節，瑣法沒有清楚記載第三次發言。第2",
+      "zh": "前兩輪完整，第三輪的比勒達僅25章六節，瑣法沒有清楚記載第三次發言。第26–27章的發言分配和第28章詩歌的發言者也有研究討論，切勿製造文本不存在的對話。",
+      "en": "The first two cycles are complete. Bildad speaks only six verses in chapter 25; no clear third Zophar speech appears. Speaker attribution in chapters 26–28 is debated."
+    }
+  },
+  "copyChapters": {
+    "item001": {
+      "label": "42 章逐章探索",
+      "zh": "42 章逐章探索",
+      "en": "Explore all 42 chapters"
+    },
+    "item002": {
+      "label": "每章均附結構定位與摘要；搜尋章號或內容，點選即可展開詳情。",
+      "zh": "每章均附結構定位與摘要；搜尋章號或內容，點選即可展開詳情。",
+      "en": "Search by chapter or content and expand any chapter."
+    },
+    "item003": {
+      "label": "搜尋章號、關鍵字……",
+      "zh": "搜尋章號、關鍵字……",
+      "en": "Search chapter, phrase…"
+    },
+    "item004": {
+      "label": "摘要",
+      "zh": "摘要",
+      "en": "Summary"
+    },
+    "item005": {
+      "label": "深入",
+      "zh": "深入",
+      "en": "Deep reading"
+    },
+    "item006": {
+      "label": "全部",
+      "zh": "全部",
+      "en": "All"
+    },
+    "item007": {
+      "label": "顯示",
+      "zh": "顯示",
+      "en": "Showing"
+    },
+    "item008": {
+      "label": "閱讀本章經文 ↗",
+      "zh": "閱讀本章經文 ↗",
+      "en": "Read this chapter ↗"
+    },
+    "item009": {
+      "label": "研讀提示",
+      "zh": "研讀提示",
+      "en": "Study prompt"
+    },
+    "item010": {
+      "label": "比較讀者已知的天上情節與約伯的有限視角。",
+      "zh": "比較讀者已知的天上情節與約伯的有限視角。",
+      "en": "Compare the reader’s privileged knowledge with Job’s limited view."
+    },
+    "item011": {
+      "label": "判斷誰在發言：這是觀察、神學原則、指控，還是對痛苦的真實見證？",
+      "zh": "判斷誰在發言：這是觀察、神學原則、指控，還是對痛苦的真實見證？",
+      "en": "Identify whether this is observation, principle, allegation, or lived testimony."
+    },
+    "item012": {
+      "label": "這個解釋是否能從經文確定適用於約伯本人？",
+      "zh": "這個解釋是否能從經文確定適用於約伯本人？",
+      "en": "Can this explanation be shown to apply to Job himself?"
+    },
+    "item013": {
+      "label": "神的問題如何改變約伯觀看世界的角度？",
+      "zh": "神的問題如何改變約伯觀看世界的角度？",
+      "en": "How do God’s questions change Job’s perspective?"
+    },
+    "item014": {
+      "label": "延伸主題 →",
+      "zh": "延伸主題 →",
+      "en": "Related themes →"
+    },
+    "item015": {
+      "label": "沒有符合的章節。",
+      "zh": "沒有符合的章節。",
+      "en": "No matching chapters."
+    }
+  },
+  "copyTheology": {
+    "item001": {
+      "label": "核心神學：問題比公式深",
+      "zh": "核心神學：問題比公式深",
+      "en": "Theology: deeper than a formula"
+    },
+    "item002": {
+      "label": "這裡清楚分開經文明說、合理推論與具有爭議的詮釋。",
+      "zh": "這裡清楚分開經文明說、合理推論與具有爭議的詮釋。",
+      "en": "Distinguish explicit text, warranted inference, and disputed interpretation."
+    },
+    "item003": {
+      "label": "神「沒有回答」嗎？精確的說法",
+      "zh": "神「沒有回答」嗎？精確的說法",
+      "en": "Did God “not answer”? A precise formulation"
+    },
+    "item004": {
+      "label": "神有回答（38:1、40:6），而且兩次發言；但是祂沒有直接回答「究竟是",
+      "zh": "神有回答（38:1、40:6），而且兩次發言；但是祂沒有直接回答「究竟是哪個具體原因讓約伯遭災」，也沒有向約伯揭示控告者的挑戰。約伯所得著的不是事件報告，而是與神的相遇，進而調整他對神、世界與自我有限性的理解。",
+      "en": "God does answer (38:1; 40:6), and speaks twice. Yet he does not answer the narrowly causal “why this happened to Job” or disclose the accuser’s challenge. Job receives an encounter, not a case report, and his view of God, creation, and himself changes."
+    },
+    "item005": {
+      "label": "教學提醒",
+      "zh": "教學提醒",
+      "en": "Teaching caution"
+    },
+    "item006": {
+      "label": "神的主權不是否認人的傷痛；承認智慧有限也不是要求受苦者閉嘴。《約伯記》花",
+      "zh": "神的主權不是否認人的傷痛；承認智慧有限也不是要求受苦者閉嘴。《約伯記》花很長的篇幅保留哀歌、控訴、沉默與追問，這本身就是重要的牧養信息。",
+      "en": "Divine sovereignty does not erase human pain; human limitation does not require silencing sufferers. Job devotes extensive space to lament, silence, and protest—an important pastoral lesson."
+    }
+  },
+  "copyLessons": {
+    "item001": {
+      "label": "成人主日學：八堂完整教案",
+      "zh": "成人主日學：八堂完整教案",
+      "en": "Adult Sunday school: eight complete lessons"
+    },
+    "item002": {
+      "label": "每堂以70分鐘安排；可縮為60分鐘或延長至90分鐘。依經文次序教學，而非",
+      "zh": "每堂以70分鐘安排；可縮為60分鐘或延長至90分鐘。依經文次序教學，而非以抽象主題取代敘事。",
+      "en": "Each lesson is planned for 70 minutes, adaptable to 60–90. Read the story before abstracting its themes."
+    },
+    "item003": {
+      "label": "建議教學節奏",
+      "zh": "建議教學節奏",
+      "en": "Suggested classroom flow"
+    },
+    "item004": {
+      "label": "開場10分 → 經文15分 → 教師講解20分 → 討論15分 → 結語",
+      "zh": "開場10分 → 經文15分 → 教師講解20分 → 討論15分 → 結語10分；第1課建議先說明詩歌體、對話者與知識差。",
+      "en": "Opening 10 → Scripture 15 → exposition 20 → discussion 15 → conclusion 10; introduce literary form and dramatic irony in lesson 1."
+    },
+    "item005": {
+      "label": "課程目標：",
+      "zh": "課程目標：",
+      "en": "Goal: "
+    },
+    "item006": {
+      "label": "教師講授逐字參考稿",
+      "zh": "教師講授逐字參考稿",
+      "en": "Instructor speaking script"
+    },
+    "item007": {
+      "label": "討論與建議回應",
+      "zh": "討論與建議回應",
+      "en": "Discussion with suggested answers"
+    },
+    "item008": {
+      "label": "交叉經文：",
+      "zh": "交叉經文：",
+      "en": "Cross-references: "
+    },
+    "item009": {
+      "label": "教學提醒：",
+      "zh": "教學提醒：",
+      "en": "Teaching caution: "
+    }
+  },
+  "copyTeacher": {
+    "item001": {
+      "label": "教師講稿與牧養備課",
+      "zh": "教師講稿與牧養備課",
+      "en": "Teacher scripts & pastoral preparation"
+    },
+    "item002": {
+      "label": "八課講稿可直接展開、閱讀或列印。建議授課前朗讀經文本身，再以本稿協助說明",
+      "zh": "八課講稿可直接展開、閱讀或列印。建議授課前朗讀經文本身，再以本稿協助說明。",
+      "en": "Expand or print eight lesson scripts; read Scripture itself before exposition."
+    },
+    "item003": {
+      "label": "列印／儲存 PDF（本分頁）",
+      "zh": "列印／儲存 PDF（本分頁）",
+      "en": "Print / Save PDF (this tab)"
+    },
+    "item004": {
+      "label": "第",
+      "zh": "第",
+      "en": "Lesson "
+    },
+    "item005": {
+      "label": "課｜",
+      "zh": "課｜",
+      "en": " | "
+    }
+  },
+  "copyQuestions": {
+    "item001": {
+      "label": "討論題庫與教師參考回答",
+      "zh": "討論題庫與教師參考回答",
+      "en": "Discussion questions and answer key"
+    },
+    "item002": {
+      "label": "每課兩題核心問題，共16題；先讓學員用經文支持答案，再參考教師引導。",
+      "zh": "每課兩題核心問題，共16題；先讓學員用經文支持答案，再參考教師引導。",
+      "en": "Two core questions per lesson, 16 in total; invite textual evidence before consulting the answer key."
+    },
+    "item003": {
+      "label": "第",
+      "zh": "第",
+      "en": "Lesson "
+    },
+    "item004": {
+      "label": "課｜",
+      "zh": "課｜",
+      "en": " | "
+    },
+    "item005": {
+      "label": "交叉經文：",
+      "zh": "交叉經文：",
+      "en": "Cross-references: "
+    },
+    "item006": {
+      "label": "課堂延伸討論",
+      "zh": "課堂延伸討論",
+      "en": "Further classroom discussion"
+    },
+    "item007": {
+      "label": "如果一位教會弟兄姊妹正在承受失落，你會先問問題、給解釋，或是安靜陪伴？為",
+      "zh": "如果一位教會弟兄姊妹正在承受失落，你會先問問題、給解釋，或是安靜陪伴？為何？請從2:11–13與42:7–10找根據。",
+      "en": "If a church member suffers loss, would you question, explain, or sit with them first? Use 2:11–13 and 42:7–10."
+    }
+  },
+  "copyTeaching": {
+    "item001": {
+      "label": "主日學／查經教學包",
+      "zh": "主日學／查經教學包",
+      "en": "Teaching and Bible-study toolkit"
+    },
+    "item002": {
+      "label": "適合帶領小組討論、逐章查經與課堂使用。",
+      "zh": "適合帶領小組討論、逐章查經與課堂使用。",
+      "en": "Designed for class discussion, small groups, and close reading."
+    },
+    "item003": {
+      "label": "60–90 分鐘課程建議",
+      "zh": "60–90 分鐘課程建議",
+      "en": "Suggested 60–90-minute lesson"
+    },
+    "item004": {
+      "label": "10 分鐘",
+      "zh": "10 分鐘",
+      "en": "10 min"
+    },
+    "item005": {
+      "label": "用總覽了解文學結構與三種視角",
+      "zh": "用總覽了解文學結構與三種視角",
+      "en": "Panorama and the three perspectives"
+    },
+    "item006": {
+      "label": "15 分鐘",
+      "zh": "15 分鐘",
+      "en": "15 min"
+    },
+    "item007": {
+      "label": "讀1–3章：兩波災難、七日沉默、約伯哀歌",
+      "zh": "讀1–3章：兩波災難、七日沉默、約伯哀歌",
+      "en": "Read 1–3: losses, silence, lament"
+    },
+    "item008": {
+      "label": "20 分鐘",
+      "zh": "20 分鐘",
+      "en": "20 min"
+    },
+    "item009": {
+      "label": "比較三友與約伯（8、19、21、22章）",
+      "zh": "比較三友與約伯（8、19、21、22章）",
+      "en": "Compare friends and Job (8, 19, 21, 22)"
+    },
+    "item010": {
+      "label": "10 分鐘",
+      "zh": "10 分鐘",
+      "en": "10 min"
+    },
+    "item011": {
+      "label": "以利戶的補充（33、36章）",
+      "zh": "以利戶的補充（33、36章）",
+      "en": "Elihu’s alternative (33, 36)"
+    },
+    "item012": {
+      "label": "20 分鐘",
+      "zh": "20 分鐘",
+      "en": "20 min"
+    },
+    "item013": {
+      "label": "神的兩輪發言與42:5–7",
+      "zh": "神的兩輪發言與42:5–7",
+      "en": "God’s two speeches and 42:5–7"
+    },
+    "item014": {
+      "label": "5 分鐘",
+      "zh": "5 分鐘",
+      "en": "5 min"
+    },
+    "item015": {
+      "label": "討論如何陪伴受苦者",
+      "zh": "討論如何陪伴受苦者",
+      "en": "Discuss care for sufferers"
+    },
+    "item016": {
+      "label": "避免四種常見誤讀",
+      "zh": "避免四種常見誤讀",
+      "en": "Avoid four common misreadings"
+    },
+    "item017": {
+      "label": "①「受苦一定是因為犯罪」；②「神完全不回答約伯」；③「以利戶與三友說法完",
+      "zh": "①「受苦一定是因為犯罪」；②「神完全不回答約伯」；③「以利戶與三友說法完全相同」；④「結局補償就等於此前失去的生命沒有重量」。",
+      "en": "① “Suffering always proves sin”; ② “God never answers”; ③ “Elihu says exactly what the friends said”; ④ “Restoration cancels earlier loss.”"
+    },
+    "item018": {
+      "label": "關鍵經文索引（摘要，非逐字引用）",
+      "zh": "關鍵經文索引（摘要，非逐字引用）",
+      "en": "Key passages (paraphrases, not verbatim quotations)"
+    },
+    "item019": {
+      "label": "閱讀經文 ↗",
+      "zh": "閱讀經文 ↗",
+      "en": "Read Scripture ↗"
+    },
+    "item020": {
+      "label": "可直接發問的討論題",
+      "zh": "可直接發問的討論題",
+      "en": "Ready-to-use discussion questions"
+    },
+    "item021": {
+      "label": "三友的前七天為什麼比後來的勸告更令人動容？",
+      "zh": "三友的前七天為什麼比後來的勸告更令人動容？",
+      "en": "Why might the friends’ first seven silent days be more helpful than their later advice?"
+    },
+    "item022": {
+      "label": "如果你知道1–2章的天上場景，為什麼仍不能把它當作對約伯本人簡單的解釋？",
+      "zh": "如果你知道1–2章的天上場景，為什麼仍不能把它當作對約伯本人簡單的解釋？",
+      "en": "Why can’t readers simply use chapters 1–2 as a direct explanation to Job?"
+    },
+    "item023": {
+      "label": "「義人受苦」與「惡人亨通」（21章）如何挑戰我們對公平的預設？",
+      "zh": "「義人受苦」與「惡人亨通」（21章）如何挑戰我們對公平的預設？",
+      "en": "How do righteous suffering and wicked prosperity challenge assumptions about justice?"
+    },
+    "item024": {
+      "label": "42:7 神責備三友，對今天以宗教語言安慰別人有什麼警告？",
+      "zh": "42:7 神責備三友，對今天以宗教語言安慰別人有什麼警告？",
+      "en": "What warning does God’s rebuke in 42:7 offer to religious comforters?"
+    },
+    "item025": {
+      "label": "42:5「親眼看見」是否意味著問題全部得到答案？",
+      "zh": "42:5「親眼看見」是否意味著問題全部得到答案？",
+      "en": "Does “seeing” God in 42:5 mean every question has been answered?"
+    },
+    "item026": {
+      "label": "在現實中的喪親或病痛處境，我們應如何避免把神學變成指責？",
+      "zh": "在現實中的喪親或病痛處境，我們應如何避免把神學變成指責？",
+      "en": "How can we avoid turning theology into blame amid bereavement or illness?"
+    },
+    "item027": {
+      "label": "延伸參考與版本說明",
+      "zh": "延伸參考與版本說明",
+      "en": "Further reading and translation notes"
+    },
+    "item028": {
+      "label": "本頁採逐章原創摘要與經文定位，並非任何中文／英文聖經譯本的全文轉錄。繁中",
+      "zh": "本頁採逐章原創摘要與經文定位，並非任何中文／英文聖經譯本的全文轉錄。繁中預設《新標點和合本》（神版）、英文預設 NASB 2020；請透過各章連結核對完整節文；對42:6、13:15與Behemoth/Leviathan等經文，留意譯本差異。",
+      "en": "This page contains original chapter paraphrases, not a reproduction of a Bible translation. The chapter links default to CUNP (Shen edition) in Chinese and NASB 2020 in English; verify the full passages there; compare translations for 42:6, 13:15, Behemoth, and Leviathan."
+    },
+    "item029": {
+      "label": "大衛鮑森舊約縱覽｜約伯記（上）· PDF ↗",
+      "zh": "大衛鮑森舊約縱覽｜約伯記（上）· PDF ↗",
+      "en": "David Pawson’s Old Testament Survey | Job (Part 1) · PDF ↗"
+    },
+    "item030": {
+      "label": "大衛鮑森舊約縱覽｜約伯記（下）· PDF ↗",
+      "zh": "大衛鮑森舊約縱覽｜約伯記（下）· PDF ↗",
+      "en": "David Pawson’s Old Testament Survey | Job (Part 2) · PDF ↗"
+    }
+  },
+  "copyResources": {
+    "item001": {
+      "label": "約伯記 PDF 講義",
+      "zh": "約伯記 PDF 講義",
+      "en": "Job PDF handouts"
+    },
+    "item002": {
+      "label": "延伸研讀 · 舊約縱覽講義",
+      "zh": "延伸研讀 · 舊約縱覽講義",
+      "en": "Further study · Old Testament Survey handouts"
+    },
+    "item003": {
+      "label": "依大衛鮑森《舊約縱覽》影片整理；可在新分頁閱讀或儲存。",
+      "zh": "依大衛鮑森《舊約縱覽》影片整理；可在新分頁閱讀或儲存。",
+      "en": "Two handouts organized from David Pawson’s Old Testament Survey videos; open to read or save."
+    }
+  },
+  "copyFooter": {
+    "item001": {
+      "label": "約伯記互動導覽 · 繁體中文 / English · 內容依全書 42 ",
+      "zh": "約伯記互動導覽 · 繁體中文 / English · 內容依全書 42 章整理，研究上有爭議之處明示不同解讀。",
+      "en": "Interactive Job study · Traditional Chinese / English · Covers all 42 chapters and flags disputed interpretations."
+    },
+    "item002": {
+      "label": "回到頂端",
+      "zh": "回到頂端",
+      "en": "Back to top"
+    }
+  }
 }
