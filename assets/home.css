@@ -19,8 +19,8 @@ body{background:var(--paper)}
 /* One shared surface per CV section. Individual records are compact rows. */
 .cv-panel,#awards-list{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:8px 19px;box-shadow:0 5px 20px rgba(36,70,107,.035)}
 .entry-list{display:block;column-count:1;column-gap:27px}
-.entry-card{display:grid;grid-template-columns:145px minmax(0,1fr);column-gap:16px;row-gap:3px;min-width:0;break-inside:avoid;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:11px 2px 12px;margin:0}
-#research .entry-card{grid-template-columns:165px minmax(0,1fr)}
+.entry-card{display:grid;grid-template-columns:80px minmax(0,1fr);column-gap:12px;row-gap:3px;min-width:0;break-inside:avoid;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:11px 2px 12px;margin:0}
+#research .entry-card{grid-template-columns:110px minmax(0,1fr)}
 .entry-list>.entry-card:last-child{border-bottom:0}
 .entry-card .entry-meta{grid-column:1;grid-row:1/span 2;display:flex;flex-direction:column;align-items:flex-start;gap:3px;min-width:0;margin:0;color:var(--muted);font-size:11px;font-weight:750;line-height:1.35;overflow-wrap:anywhere}
 .entry-card .entry-meta .tag{font-size:10px;letter-spacing:0;padding:2px 7px;line-height:1.45}
