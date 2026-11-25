@@ -50,6 +50,9 @@
     }
   }
 
+  if (/^\/bible-study\/[^/]+\/?$/.test(location.pathname)) {
+    const script=document.createElement('script');script.src='/assets/study-bento.js?v=20261125';script.defer=true;document.head.append(script);
+  }
   window.addEventListener('pageshow', checkForUpdate);
   document.addEventListener('visibilitychange', checkForUpdate);
 })();
