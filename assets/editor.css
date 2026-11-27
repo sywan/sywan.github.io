@@ -23,5 +23,6 @@ header{position:sticky;top:0;z-index:30;box-shadow:0 4px 16px #19344312}.header{
 /* Unpublished state is tracked against the GitHub version and the last browser draft. */
 .node.status-unsaved:not(details){border-left:4px solid #cf8a35;background:#fff8ec}.node.status-draft:not(details){border-left:4px solid #5d96c6;background:#f0f7ff}
 .field-row.status-unsaved,.publication-form label.status-unsaved{padding:7px;border-left:4px solid #cf8a35;border-radius:7px;background:#fff8ec}.field-row.status-draft,.publication-form label.status-draft{padding:7px;border-left:4px solid #5d96c6;border-radius:7px;background:#f0f7ff}
+.field-rich-preview{margin:4px 0 8px;padding:10px 12px;border:1px solid #c8d9e9;border-radius:9px;background:#f5f9fd;color:var(--ink);font-size:13px;font-weight:400;overflow-wrap:anywhere}.field-rich-preview>strong{display:block;margin-bottom:5px;color:var(--blue);font-size:11px}.rich-editor-guide{padding:7px 10px;border-left:3px solid #8eafd1;background:#f3f8fd;color:var(--muted)}
 .section-root.status-unsaved>summary::after{content:' · 有修改未存草稿';color:#9a641d;font-size:12px}.section-root.status-draft>summary::after{content:' · 草稿已存，未發布';color:#296b9f;font-size:12px}
 html[lang=en] .section-root.status-unsaved>summary::after{content:' · Unsaved edits'}html[lang=en] .section-root.status-draft>summary::after{content:' · Draft saved, unpublished'}

@@ -1,0 +1,11 @@
+.rich-text-inline,.rich-text-block{overflow-wrap:anywhere}
+.rich-text-block{margin:.2em 0 .5em}
+.rich-text-block>p{margin:.25em 0}
+.rich-text-block>ul,.rich-text-block>ol{margin:.35em 0;padding-left:1.4em}
+.rich-text-block>blockquote{margin:.5em 0;padding:.2em .8em;border-left:3px solid #8caed0;background:#f3f8fd}
+.rich-text-block pre{overflow:auto;padding:.65em .8em;border-radius:8px;background:#edf3f8}
+.rich-text-block code,.rich-text-inline code{font-size:.92em;background:#edf3f8;padding:.06em .2em;border-radius:3px}
+.rich-text-block table{border-collapse:collapse;max-width:100%;display:block;overflow:auto}
+.rich-text-block th,.rich-text-block td{border:1px solid #cad9e7;padding:.25em .5em}
+.rich-text-block img,.rich-text-inline img{max-width:100%;height:auto}
+.rich-math-display{overflow-x:auto;overflow-y:hidden;margin:.4em 0}

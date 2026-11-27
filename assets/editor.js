@@ -95,8 +95,11 @@
       if(input.tagName==='SELECT'){for(const kind of ['active','planned']){const option=document.createElement('option');option.value=kind;option.textContent=kind==='active'?ui('已上架','Available'):ui('編寫中','Planned');input.append(option)}input.value=value}
       else if(typeof value==='boolean'){input.type='checkbox';input.checked=value}
       else {if(input.tagName==='INPUT')input.type=typeof value==='number'?'number':'text';input.value=value??''}
-      input.addEventListener(input.type==='checkbox'||input.tagName==='SELECT'?'change':'input',()=>{set(model,nodePath,typeof value==='boolean'?input.checked:typeof value==='number'?Number(input.value):input.value)});
-      cap.append(input);row.append(cap);parent.append(row);return;
+      const richPreview=typeof value==='string'&&input.tagName!=='SELECT'?document.createElement('div'):null;
+      if(richPreview){richPreview.className='field-rich-preview';richPreview.setAttribute('aria-live','polite')}
+      const updateRichPreview=()=>{if(!richPreview)return;const formatted=window.SiteRichText?.hasFormatting(input.value);richPreview.hidden=!formatted;if(formatted)richPreview.innerHTML=`<strong>${ui('格式預覽','Formatting preview')}</strong><div>${window.SiteRichText.render(input.value,'block')}</div>`};
+      input.addEventListener(input.type==='checkbox'||input.tagName==='SELECT'?'change':'input',()=>{set(model,nodePath,typeof value==='boolean'?input.checked:typeof value==='number'?Number(input.value):input.value);updateRichPreview()});
+      cap.append(input);row.append(cap);if(richPreview)row.append(richPreview);parent.append(row);updateRichPreview();return;
     }
     const box=document.createElement('details');box.className='node';box.dataset.editPath=nodePath.join('.');if(depth===0)box.classList.add('section-root');box.open=depth<1;const summary=document.createElement('summary');const jobCopyItem=dataVar==='JOB_DATA'&&/^copy[A-Z]/.test(nodePath[0])&&nodePath.length===2;summary.textContent=jobCopyItem?(editorLang==='zh'?value.label||value.zh||pretty(label):value.en||value.label||pretty(label)):`${pretty(label)} ${Array.isArray(value)?`(${value.length})`:''}`;box.append(summary);const body=document.createElement('div');body.className='node-body';box.append(body);parent.append(box);
     if(Array.isArray(value)){
